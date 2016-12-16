@@ -10514,7 +10514,7 @@ footer#colophon .container {
   width: 100% !important;
 }
 footer#colophon .inquiry {
-  background-image: url("http://luceo-wp.azurewebsites.net/wp-content/themes/luceo/images/LUCEO-bg.jpg");
+  background-image: url("http://cw-wp.azurewebsites.net/wp-content/themes/cw/images/LUCEO-bg.jpg");
   background-position: 50% -140px;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -11601,7 +11601,7 @@ iframe {
   Home
 *********/
 .home-page-bg {
-  background: url("../../../uploads/2016/07/luceo_bg.jpg") no-repeat;
+  background: url("../../../uploads/2016/07/cw_bg.jpg") no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: 50% 50%;

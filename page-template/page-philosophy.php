@@ -2,7 +2,7 @@
 /**
  * Template Name: Philosophy
  *
- * @package Luceo
+ * @package C&W
  */
 get_header(); ?>
 <div class="container full-width">

@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package Luceo
+ * @package C&W
  */
 
 ?>
@@ -18,7 +18,7 @@
 		<div class="col-xs-12">
 			<div class="invest-inquiry">
 				<h2>For general enquires call: 0333 000 0330</h2>
-				<a href="<?php echo site_url(); ?>/advice">Luceo Funds are only available via a financial adviser. To talk to a Lighthouse financial adviser, click here.</a>
+				<a href="<?php echo site_url(); ?>/advice">C&W Funds are only available via a financial adviser. To talk to a Lighthouse financial adviser, click here.</a>
 			</div>
 		</div>
 	</div>
@@ -38,9 +38,9 @@
 <!-- MENU FOR SMALL SCREEN -->
 <nav id="mm-menu" class="mm-menu">
 	<div class="mm-menu__header">
-		<h2 class="mm-menu__title">Luceo</h2>
+		<h2 class="mm-menu__title">C&W</h2>
 	</div>
-	<?php luceo_header_menu(); ?>
+	<?php cw_header_menu(); ?>
 </nav><!-- nav -->
 <?php wp_footer(); ?>
 

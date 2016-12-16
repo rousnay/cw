@@ -2,9 +2,9 @@
 /**
  Sidebar widget area (theme default).
 **/
-// function luceo_widgets_init() {
+// function cw_widgets_init() {
 // 	register_sidebar( array(
-// 		'name'          => esc_html__( 'Sidebar', 'luceo' ),
+// 		'name'          => esc_html__( 'Sidebar', 'cw' ),
 // 		'id'            => 'sidebar-1',
 // 		'description'   => '',
 // 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
@@ -14,14 +14,14 @@
 // 		) );
 // }
 
-// add_action( 'widgets_init', 'luceo_widgets_init' );
+// add_action( 'widgets_init', 'cw_widgets_init' );
 
 //Push/Pull sidebar widgets
 function push_sidebar_widgets_init() {
 
 		register_sidebar( array(
 		'name' => 'Push/Pull Sidebar',
-		'description'   => __( 'Widgets displayed at push/pull sidebar.', 'luceo' ),
+		'description'   => __( 'Widgets displayed at push/pull sidebar.', 'cw' ),
 		'id' => 'push_sidebar_widgets',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
@@ -38,7 +38,7 @@ function philosophy_widgets_init() {
 
 		register_sidebar( array(
 		'name' => 'Philosophy Sidebar',
-		'description'   => __( 'Widgets displayed at Philosophy page.', 'luceo' ),
+		'description'   => __( 'Widgets displayed at Philosophy page.', 'cw' ),
 		'id' => 'philosophy_widgets',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
@@ -54,7 +54,7 @@ function blog_widgets_init() {
 
 		register_sidebar( array(
 		'name' => 'Blog/News Sidebar',
-		'description'   => __( 'Widgets displayed at blog/news page.', 'luceo' ),
+		'description'   => __( 'Widgets displayed at blog/news page.', 'cw' ),
 		'id' => 'blog_widgets',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
@@ -72,7 +72,7 @@ function footer_widgets_init() {
 
 	register_sidebar( array(
 		'name' => 'Footer Widgets #1',
-		'description'   => __( 'Widgets displayed at footer.', 'luceo' ),
+		'description'   => __( 'Widgets displayed at footer.', 'cw' ),
 		'id' => 'footer_widgets_1',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
@@ -81,7 +81,7 @@ function footer_widgets_init() {
 	) );
 		register_sidebar( array(
 		'name' => 'Footer Widgets #2',
-		'description'   => __( 'Widgets displayed at footer.', 'luceo' ),
+		'description'   => __( 'Widgets displayed at footer.', 'cw' ),
 		'id' => 'footer_widgets_2',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
@@ -90,7 +90,7 @@ function footer_widgets_init() {
 	) );
 		register_sidebar( array(
 		'name' => 'Footer Widgets #3',
-		'description'   => __( 'Widgets displayed at footer.', 'luceo' ),
+		'description'   => __( 'Widgets displayed at footer.', 'cw' ),
 		'id' => 'footer_widgets_3',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
@@ -99,7 +99,7 @@ function footer_widgets_init() {
 	) );
 		register_sidebar( array(
 		'name' => 'Footer Widgets #4',
-		'description'   => __( 'Widgets displayed at footer.', 'luceo' ),
+		'description'   => __( 'Widgets displayed at footer.', 'cw' ),
 		'id' => 'footer_widgets_4',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',

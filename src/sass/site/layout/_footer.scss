@@ -5,7 +5,7 @@ footer#colophon {
         width: 100%!important;
     }
     .inquiry{
-        background-image: url("http://luceo-wp.azurewebsites.net/wp-content/themes/luceo/images/LUCEO-bg.jpg");
+        background-image: url("http://cw-wp.azurewebsites.net/wp-content/themes/cw/images/LUCEO-bg.jpg");
         background-position:50% -140px;
         background-repeat:no-repeat;
         background-size: cover;
@@ -48,7 +48,7 @@ footer#colophon {
             text-decoration: none;
             transition: background 350ms ease-in-out, border-color 350ms ease-in-out, color 150ms ease-in-out;
             &:hover {
-                color: $color_luceo_orange;
+                color: $color_cw_orange;
                 text-decoration: none;
             }
         }

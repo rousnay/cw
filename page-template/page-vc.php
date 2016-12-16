@@ -2,7 +2,7 @@
 /**
  * Template Name: Template with Visual Editor
  *
- * @package Luceo
+ * @package C&W
  */
 get_header(); ?>
 

@@ -1,8 +1,8 @@
-# Travis CI (MIT License) configuration file for the Luceo WordPress theme.
+# Travis CI (MIT License) configuration file for the C&W WordPress theme.
 # @link https://travis-ci.org/
 
-# For use with the Luceo WordPress theme.
-# @link https://github.com/rousnay/luceo
+# For use with the C&W WordPress theme.
+# @link https://github.com/rousnay/cw
 
 # Declare project language.
 # @link http://about.travis-ci.org/docs/user/languages/php/

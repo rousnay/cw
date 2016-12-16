@@ -110,7 +110,7 @@ body.page-template-page-blog{
 		    .widget {
 		    margin: 20px 0 40px;
     		    .widget-title {
-			    color: $color_luceo_grey;
+			    color: $color_cw_grey;
 			    font-size: 1.72em;
 			    text-transform: capitalize;
 			    border-bottom: none;
@@ -130,14 +130,14 @@ body.page-template-page-blog{
 					    .post-date {
 						    font-size: 0.9em;
 						    line-height: 1.5em;
-						    color: $color_luceo_grey;
+						    color: $color_cw_grey;
 						}
 				    }
 				    a{
-					    color: $color_luceo_grey;
+					    color: $color_cw_grey;
 					    font-size: 1.2em;
 					    &:hover {
-						    color: $color_luceo_orange;
+						    color: $color_cw_orange;
 						}
 				    }
 				}

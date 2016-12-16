@@ -29,7 +29,7 @@
 		position: relative;
 		&:hover > a,
 		&.focus > a {
-    		color: $color_luceo_orange;
+    		color: $color_cw_orange;
 		}
 	}
 
@@ -40,7 +40,7 @@
 	    text-transform: uppercase;
 	    font-weight: 400;
 	    &:hover{
-            color: $color_luceo_orange;
+            color: $color_cw_orange;
         }
 	}
 	ul {
@@ -56,7 +56,7 @@
 			top: 100%;
 			left: -999em;
 			z-index: 99999;
-			background-color: $color_luceo_yellow;
+			background-color: $color_cw_yellow;
 
 			ul {
 				left: -999em;
@@ -68,7 +68,7 @@
 				text-align: left;
 				transition: background-color 200ms ease-out;
 				&:hover{
-					background-color: $color_luceo_orange;
+					background-color: $color_cw_orange;
 					a{
 						color: #ffffff;
 						transition: color 200ms ease-out;
@@ -87,7 +87,7 @@
         		text-transform: uppercase;
 			    font-size: 11px;
 			    font-weight: 400;
-			    border-bottom: 1px solid $color_luceo_gradient;
+			    border-bottom: 1px solid $color_cw_gradient;
 			}
 
 			:hover > a,
@@ -161,7 +161,7 @@ button {
 }
 #mm-menu{
 	.mm-menu__header {
-	  background-color: $color_luceo_orange !important;
+	  background-color: $color_cw_orange !important;
 	}
 	#header-menu-left-id {
     margin-top: 15px;

@@ -3,10 +3,10 @@ header#masthead{
     background: #fff;
 }
 .sideheader-visible .tool-bar a{
-    color: $color_luceo_grey;
+    color: $color_cw_grey;
     .c-hamburger {
         span, span:before, span:after{
-            background-color: $color_luceo_grey;
+            background-color: $color_cw_grey;
         }
     }
 }
@@ -28,7 +28,7 @@ header{
                 h4{
                 font-size: 13px;
                 cursor: default;
-                color: $color_luceo_grey;
+                color: $color_cw_grey;
                 font-weight: 400;
                 }
             }
@@ -40,12 +40,12 @@ header{
                 float: right;
                 margin-right: 25px;
                 margin-top: -1px;
-                color: $color_luceo_grey;
+                color: $color_cw_grey;
                 &:hover{
-                    color: $color_luceo_orange;
+                    color: $color_cw_orange;
                     .c-hamburger {
                         span, span:before, span:after{
-                            background-color: $color_luceo_orange;
+                            background-color: $color_cw_orange;
                         }
                     }
                 }
@@ -60,7 +60,7 @@ header{
                 float: right;
                 cursor: pointer;
                 &:hover{
-                    color: $color_luceo_orange;
+                    color: $color_cw_orange;
                 }
             }
         }

@@ -4,16 +4,16 @@
  * Register All Menus
  *
  */
-function luceo_menus() {
+function cw_menus() {
     register_nav_menus(
         array(
-            'header-menu' => __( 'Header menu' , 'nav menu location', 'luceo'),
-            'footer-menu' => __( 'Footer menu' , 'nav menu location', 'luceo')
+            'header-menu' => __( 'Header menu' , 'nav menu location', 'cw'),
+            'footer-menu' => __( 'Footer menu' , 'nav menu location', 'cw')
             )
         );
 }
 
-add_action( 'init', 'luceo_menus' );
+add_action( 'init', 'cw_menus' );
 
 
 /*
@@ -22,7 +22,7 @@ add_action( 'init', 'luceo_menus' );
  */
 
 //Header menu
-function luceo_header_menu() {
+function cw_header_menu() {
     if ( has_nav_menu( 'header-menu' ) ) {
     wp_nav_menu(
         array(
@@ -48,7 +48,7 @@ function luceo_header_menu() {
 }
 
 //Fotter menu
-function luceo_footer_menu() {
+function cw_footer_menu() {
     if ( has_nav_menu( 'footer-menu' ) ) {
     wp_nav_menu(
         array(

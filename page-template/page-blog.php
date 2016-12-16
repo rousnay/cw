@@ -2,7 +2,7 @@
 /**
  * Template Name: Blog/News
  *
- * @package Luceo
+ * @package C&W
  */
 get_header(); ?>
 <div class="container full-width">
@@ -38,7 +38,7 @@ get_header(); ?>
 				endif; ?>
 				<div class="all post-item col-xs-12 col-sm-6 <?php echo $tax; ?>">
 						<?php
-							$post_thumb = wp_get_attachment_image_src( get_post_thumbnail_id(), 'luceo_blog_listing');
+							$post_thumb = wp_get_attachment_image_src( get_post_thumbnail_id(), 'cw_blog_listing');
 							$thumb_url	= $post_thumb[0];
 							$post_url	= get_permalink();
 							$content 	= get_the_content();

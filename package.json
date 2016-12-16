@@ -1,11 +1,11 @@
 {
-  "name": "luceo",
+  "name": "cw",
   "version": "1.0.0",
-  "description": "luceo theme by Injected Motion",
+  "description": "cw theme by 502 Media Group",
   "main": "index.php",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rousnay/luceo.git"
+    "url": "git+https://github.com/rousnay/cw.git"
   },
   "keywords": [
     "wordpress",
@@ -21,9 +21,9 @@
   "author": "Md. Mozahidur Rahman",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rousnay/luceo/issues"
+    "url": "https://github.com/rousnay/cw/issues"
   },
-  "homepage": "https://github.com/rousnay/luceo#readme",
+  "homepage": "https://github.com/rousnay/cw#readme",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-autoprefixer": "^3.0.3",

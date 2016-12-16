@@ -2,7 +2,7 @@
 /**
  * Template Name: Hard Coded
  *
- * @package Luceo
+ * @package C&W
  */
 get_header(); ?>
 

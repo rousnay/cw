@@ -1,8 +1,8 @@
 <?php
 /**
- * Luceo Theme Customizer.
+ * C&W Theme Customizer.
  *
- * @package Luceo
+ * @package C&W
  */
 
 /**
@@ -10,17 +10,17 @@
  *
  * @param WP_Customize_Manager $wp_customize Theme Customizer object.
  */
-function luceo_customize_register( $wp_customize ) {
+function cw_customize_register( $wp_customize ) {
 	$wp_customize->get_setting( 'blogname' )->transport         = 'postMessage';
 	$wp_customize->get_setting( 'blogdescription' )->transport  = 'postMessage';
 	$wp_customize->get_setting( 'header_textcolor' )->transport = 'postMessage';
 }
-add_action( 'customize_register', 'luceo_customize_register' );
+add_action( 'customize_register', 'cw_customize_register' );
 
 /**
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
  */
-function luceo_customize_preview_js() {
-	wp_enqueue_script( 'luceo_customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20130508', true );
+function cw_customize_preview_js() {
+	wp_enqueue_script( 'cw_customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20130508', true );
 }
-add_action( 'customize_preview_init', 'luceo_customize_preview_js' );
+add_action( 'customize_preview_init', 'cw_customize_preview_js' );

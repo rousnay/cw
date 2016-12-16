@@ -1,6 +1,6 @@
 ::selection { 
 	color: #ffffff!important;
-	background: $color_luceo_yellow !important;
+	background: $color_cw_yellow !important;
 }
 
 body{
@@ -41,15 +41,15 @@ body.page-template-page-vc {
 	input.ninja-forms-field{
 	    background: rgba(255,255,255,0.2)!important;
 	    &:hover, &:focus, &:active{
-	    	border-color: $color_luceo_yellow!important;
+	    	border-color: $color_cw_yellow!important;
 	    }
 		
 	}
 
 	.ninja-forms-form-wrap form input[type=submit]{
-		background: $color_luceo_yellow !important;
+		background: $color_cw_yellow !important;
 		&:hover, &:focus, &:active{
-			background: $color_luceo_orange !important;
+			background: $color_cw_orange !important;
 			color: #ffffff!important;
 		}
 	}
@@ -121,7 +121,7 @@ body.page-template-page-vc {
   width: 300px;
   padding: 50px 35px;
   z-index: 0;
-  background: $color_luceo_orange;
+  background: $color_cw_orange;
   color: white;
   overflow: auto;
   //backface-visibility: hidden;
@@ -131,7 +131,7 @@ body.page-template-page-vc {
 	  //display: block;
 	}
 	.buttons.gray:hover {
-		background:$color_luceo_yellow !important;
+		background:$color_cw_yellow !important;
 	    a,i{
 	    	color: #fff;
 	    }

@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
- * @package Luceo
+ * @package C&W
  */
 
 get_header(); ?>
@@ -18,7 +18,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 				<?php
 				while ( have_posts() ) : the_post();
-				$thumb_feature = wp_get_attachment_image_src( get_post_thumbnail_id(), 'luceo_feature_img');
+				$thumb_feature = wp_get_attachment_image_src( get_post_thumbnail_id(), 'cw_feature_img');
 				$url_feature = $thumb_feature[0];
 				?> 
 				<div class="post-img">

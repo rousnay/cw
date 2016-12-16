@@ -9,7 +9,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package Luceo
+ * @package C&W
  */
 
 get_header(); ?>

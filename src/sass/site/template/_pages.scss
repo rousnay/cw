@@ -2,7 +2,7 @@
   Home
 *********/
 .home-page-bg {
-    background: url('../../../uploads/2016/07/luceo_bg.jpg') no-repeat;
+    background: url('../../../uploads/2016/07/cw_bg.jpg') no-repeat;
     -o-background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -33,14 +33,14 @@ body.page-template-page-home{
     float: right;
     .main-text{
     	font-family: "Raleway",Helvetica,Arial,sans-serif;
-	    color: $color_luceo_yellow;
+	    color: $color_cw_yellow;
 	    float: right;
 	    font-size: 4.2em;
 	    line-height: 1.2em;
     }
     .sub-text{
 	    font-family: Raleway;
-    	color: $color_luceo_grey;
+    	color: $color_cw_grey;
     	float: right;
     	clear: both;
     	margin-top: 10px;
@@ -55,11 +55,11 @@ body.page-template-page-home{
 	    margin-top: 20px;
 	    a{
 			padding: 10px 15px;
-			background: $color_luceo_grey;
+			background: $color_cw_grey;
 			color: #FFFFFF;
 		    text-transform: capitalize;
 			&:hover{
-				background: $color_luceo_orange;
+				background: $color_cw_orange;
 				color: #FFFFFF;
 			}
 	    }
@@ -95,12 +95,12 @@ body.page-template-page-home{
 		    border-radius: 0;
 		    padding: 12px 15px;
 		    &:hover {
-			    background-color:$color_luceo_yellow; // $color_luceo_orange;
+			    background-color:$color_cw_yellow; // $color_cw_orange;
 			    color: #FFFFFF;
 			}
 		}
 		&.current_page_item a{
-			background-color:$color_luceo_yellow; // $color_luceo_orange;
+			background-color:$color_cw_yellow; // $color_cw_orange;
 		    color: #FFFFFF;
 		}
 	}
@@ -125,7 +125,7 @@ body.page-template-page-home{
 	}
 	.invest-info{
 		.sub-title{
-			border-color: $color_luceo_orange !important;
+			border-color: $color_cw_orange !important;
 		}
 		.one-solution{
 			width: 48%;
@@ -229,7 +229,7 @@ body.page-template-page-home{
 
 		.invest-info{
 		.sub-title{
-			border-color: $color_luceo_orange !important;
+			border-color: $color_cw_orange !important;
 		}
 		.invest-solution{
 			background-color: #fafafa;

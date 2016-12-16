@@ -86,7 +86,7 @@
             {
                 "param": "options_page",
                 "operator": "==",
-                "value": "luceo-general-settings"
+                "value": "cw-general-settings"
             }
         ]
     ],

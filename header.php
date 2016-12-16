@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package Luceo
+ * @package C&W
  */
 
 ?><!DOCTYPE html>
@@ -19,7 +19,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<body id="luceo-wp" <?php body_class(); ?>>
+<body id="cw-wp" <?php body_class(); ?>>
 	<div id="sideheader">
 		<div class="sidebar-inner">
 			<div class="push_sidebar">
@@ -28,12 +28,12 @@
 		</div>
 	</div>
 	<div id="page" class="site content-wrapper">
-		<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'luceo' ); ?></a>
+		<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'cw' ); ?></a>
 		<header id="masthead" class="site-header panel-top panel-fixed" role="banner">
 			<div class="container">
 				<div class="row top-bar">
 					<div class="col-md-6 top-text-line hidden-xs hidden-sm">
-						<h4>0333 000 0330 | enquiries@luceoassestmanagement.co.uk</h4>
+						<h4>0333 000 0330 | enquiries@cwassestmanagement.co.uk</h4>
 					</div>
 					<div class="col-sm-12 col-xs-12 col-md-6 tool-bar sideheader-trigger">
 						<div class="link">
@@ -56,7 +56,7 @@
 							</a>
 						</div>
 						<div class="col-md-7 col-lg-7 hidden-xs hidden-sm menu-area">
-							<?php luceo_header_menu(); ?>
+							<?php cw_header_menu(); ?>
 						</div>
 					</nav><!-- #site-navigation -->
 				</div>

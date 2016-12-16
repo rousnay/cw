@@ -2,7 +2,7 @@
 /**
  * Template Name: Home
  *
- * @package Luceo
+ * @package C&W
  */
 get_header(); ?>
 

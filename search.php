@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
  *
- * @package Luceo
+ * @package C&W
  */
 
 get_header(); ?>
@@ -38,7 +38,7 @@ get_header(); ?>
 							</form>
 						</div>
 
-						<h1 class="page-title"><?php printf( esc_html__( 'Search Results for: %s', 'luceo' ), '<span>“' . get_search_query() . '”</span>' ); ?></h1>
+						<h1 class="page-title"><?php printf( esc_html__( 'Search Results for: %s', 'cw' ), '<span>“' . get_search_query() . '”</span>' ); ?></h1>
 
 					</header><!-- .page-header -->
 

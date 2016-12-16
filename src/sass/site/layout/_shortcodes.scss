@@ -30,12 +30,12 @@
         font-size: 20px;
     }
     &.yellow {
-        background: $color_luceo_yellow;
+        background: $color_cw_yellow;
         a,i{
             color: #fff;
         }
         &:hover{
-            background: $color_luceo_orange;
+            background: $color_cw_orange;
             a,i{
                 color: #fff;
             }
@@ -43,12 +43,12 @@
     }
 
     &.orange {
-        background: $color_luceo_orange;
+        background: $color_cw_orange;
         a,i{
             color: #fff;
         }
         &:hover{
-            background: $color_luceo_yellow;
+            background: $color_cw_yellow;
             a,i{
                 color: #fff;
             }
@@ -60,7 +60,7 @@
             color: #999;
         }
         &:hover{
-            background: $color_luceo_orange;
+            background: $color_cw_orange;
             a,i{
                 color: #fff;
             }
@@ -99,13 +99,13 @@
 .contents{
     word-wrap: break-word;
     &.yellow{
-        color: $color_luceo_yellow !important;
+        color: $color_cw_yellow !important;
     }
     &.orange{
-        color: $color_luceo_orange !important;
+        color: $color_cw_orange !important;
     }
     &.gray{
-        color: $color_luceo_grey !important;
+        color: $color_cw_grey !important;
     }
     &.white{
         color: #ffffff !important;
@@ -169,7 +169,7 @@
                 font-family: "Raleway",Helvetica,Arial,sans-serif;
                 font-weight: 400;
                 line-height: 1;
-                color: $color_luceo_grey;
+                color: $color_cw_grey;
                 margin: 0;
                 margin-bottom: 3px;
                 transition: all 200ms ease-out;
@@ -184,7 +184,7 @@
     }
     &:hover{
         .svg-text p{
-            color: $color_luceo_yellow;
+            color: $color_cw_yellow;
         }
         .svg-crl {
             path{

@@ -4,13 +4,13 @@
 
 .hard-coded{
 	.yellow{
-        color: $color_luceo_yellow !important;
+        color: $color_cw_yellow !important;
     }
     .orange{
-        color: $color_luceo_orange !important;
+        color: $color_cw_orange !important;
     }
     .gray{
-        color: $color_luceo_grey !important;
+        color: $color_cw_grey !important;
     }
     .white{
         color: #ffffff !important;
@@ -50,20 +50,20 @@
 		max-width: 1170px;
 		margin: 0 auto;
 		.sub-title{
-			color: $color_luceo_orange;
+			color: $color_cw_orange;
 			//text-transform: uppercase;
 			font-family: "Raleway",Helvetica,Arial,sans-serif;
 		    font-weight: 400;
 			font-size: 20px;
 		    padding-top: 20px;
 		    margin-bottom: 50px;
-			border-top: 1px solid $color_luceo_orange;
+			border-top: 1px solid $color_cw_orange;
 		}
 		.invest-solution{
 			width: 48%;
 		}
 		.solution{
-			color: $color_luceo_orange;
+			color: $color_cw_orange;
 			text-transform: uppercase;
 			font-family: "Raleway",Helvetica,Arial,sans-serif;
 		    font-weight: 400;
@@ -100,10 +100,10 @@
 			    margin-top: 30px;
 		    }
 		    a{
-		    	color:$color_luceo_orange;
+		    	color:$color_cw_orange;
 	    	    transition: all 200ms ease-out;
 		    	&:hover{
-		    		color:$color_luceo_yellow;
+		    		color:$color_cw_yellow;
 		    	}
 		    }
 
@@ -130,7 +130,7 @@
 			    line-height: 52px;
 			    margin-top: 0;
 			    padding-top: 20px;
-				border-top: 1px solid $color_luceo_yellow;
+				border-top: 1px solid $color_cw_yellow;
 			}
 	    }
 	    .ranges{
@@ -142,7 +142,7 @@
 		    .ranges-item {
 			    background-color: #fff;
 			    padding: 45px 40px;
-			    border: 3px solid $color_luceo_yellow;
+			    border: 3px solid $color_cw_yellow;
 			    // h1{
 				   //  font-size: 60px;
 				   //  font-family: "Raleway",Helvetica,Arial,sans-serif;
