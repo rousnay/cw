@@ -4,13 +4,13 @@
 	/******************************
 	 Home page background image
 	 ******************************/
-	 if ($('.page-template-page-home').length > 0) {
-	 	$('#page').addClass('home-page-bg');
-	 	$('html, body').css({
-		    'overflow': 'hidden',
-		    'height': '100%'
-		});
-	 }
+	 // if ($('.page-template-page-home').length > 0) {
+	 // 	$('#page').addClass('home-page-bg');
+	 // 	$('html, body').css({
+		//     'overflow': 'hidden',
+		//     'height': '100%'
+		// });
+	 // }
 
 	/******************************
 	 Header and Menu

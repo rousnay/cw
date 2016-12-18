@@ -16,93 +16,17 @@ header{
     .container {
         width: auto;
         }
-        .top-bar {
+        .site-header {
             border-bottom: 1px solid #000;
             padding-top: 20px;
             padding-bottom: 5px;
             div {
                 padding: 0;
             }
-            .top-text-line {
-                margin-top: 10px;
-                h4{
-                font-size: 13px;
-                cursor: default;
-                color: $color_cw_grey;
-                font-weight: 400;
-                }
-            }
-            .tool-bar {
-                margin-top: 20px;
-            }
-            a {
-                // font-size: 16px;
-                float: right;
-                margin-right: 25px;
-                margin-top: -1px;
-                color: $color_cw_grey;
-                &:hover{
-                    color: $color_cw_orange;
-                    .c-hamburger {
-                        span, span:before, span:after{
-                            background-color: $color_cw_orange;
-                        }
-                    }
-                }
-                span{
-                    font-family: $font_google,$font_backup;
-                    text-transform: uppercase;
-                    padding-left: 5px;
-                }
-            }
-            .tool-bar div{
-                font-size: 16px;
-                float: right;
-                cursor: pointer;
-                &:hover{
-                    color: $color_cw_orange;
-                }
-            }
-        }
-
-
-        .top-search{
-            form {
-                float: right;
-                input[type="search"]{
-                    border: none;
-                    font-family: "Raleway", Arial, Helvetica, sans-serif;
-                    font-weight: 300;
-                    text-transform: lowercase;
-                    font-size: 14px;
-                    padding: 0;
-                    transition: width 0.4s;
-                    width: 100px;
-                    &:focus {
-                    transition: width 0.4s (0,1.22,.66,1.39);
-                    width: 250px;
-                    }
-                }
-                button{
-                    background: transparent!important;
-                    border: none!important;
-                    outline: none!important;
-                    padding-top: .8em;
-                    &:hover,&:focus,&:active{
-                        background: transparent!important;
-                        border: none!important;
-                        outline: none!important;
-                    }
-                    i.fa.fa-search {
-                        font-size: 14px;
-                        color: #000;
-                    }
-                }
-            }
         }
 }
 @media (max-width: 991px){
-    header .top-bar {
+    header .site-header {
         padding-top: 5px;
         padding-bottom: 5px;
     }

@@ -31,48 +31,30 @@
 		<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'cw' ); ?></a>
 		<header id="masthead" class="site-header panel-top panel-fixed" role="banner">
 			<div class="container">
-				<div class="row top-bar">
-					<div class="col-md-6 top-text-line hidden-xs hidden-sm">
-						<h4>0333 000 0330 | enquiries@cwassestmanagement.co.uk</h4>
-					</div>
-					<div class="col-sm-12 col-xs-12 col-md-6 tool-bar sideheader-trigger">
-						<div class="link">
-							<i class="fa fa-search"></i>
-						</div>
-						<a href="#" class="link ask_a_question">
-							<!-- <button class="c-hamburger c-hamburger--htra">
-								<span>toggle menu</span>
-							</button> -->
-							<i class="fa fa-envelope-o"></i>
-							<span> CONTACT US </span>
+				<div class="row site-header">
+					<div class="col-xs-7 col-sm-6 col-md-5 col-lg-5 logo-area">
+						<a class="site-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+							<img src="<?php echo( get_header_image() ); ?>" alt="<?php echo( get_bloginfo( 'title' ) ); ?>" />
 						</a>
 					</div>
+
+					<div class="col-sm-12 col-xs-12 col-md-6">
+						<div class="emergency-form">
+							<h3>Auto Accident?  Home Emergency?</h3>
+							<button class="submit-claim">SUBMIT A CLAIM</button>
+						</div>
+
+					</div>
+
 				</div>
+
 				<div class="row header-menus">
 					<nav id="site-navigation" class="main-navigation" role="navigation">
-						<div class="col-xs-7 col-sm-6 col-md-5 col-lg-5 logo-area">
-							<a class="site-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-								<img src="<?php echo( get_header_image() ); ?>" alt="<?php echo( get_bloginfo( 'title' ) ); ?>" />
-							</a>
-						</div>
-						<div class="col-md-7 col-lg-7 hidden-xs hidden-sm menu-area">
+						<div class="col-md-12 hidden-xs hidden-sm menu-area">
 							<?php cw_header_menu(); ?>
 						</div>
 					</nav><!-- #site-navigation -->
 				</div>
-				<div id="search-popup">
-					<div class="popup-close" href="#"><i class="fa fa-remove"></i></div>
-					<h3 class="search-title">TYPE & HIT ENTER</h3>
-					<form role="search" method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>">
-						<div class="search-wrap">
-							<label class="screen-reader-text" for="s"><?php _e( 'Search for:', 'presentation' ); ?></label>
-							<input id="search-input" type="search" placeholder="<?php echo esc_attr( ' ', 'presentation' ); ?>" name="s" value="<?php echo esc_attr( get_search_query() ); ?>" autocomplete="off"/>
-							<button type="submit">
-								<i class="fa fa-search"></i>
-							</button>
-						</div>
-					</form>
-				</div><!-- #search-popup -->
 			</div>
 		</header><!-- #masthead -->
 		<div id="content" class="site-content">

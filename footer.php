@@ -14,26 +14,36 @@
 </div><!-- #content -->
 
 <footer id="colophon" class="site-footer" role="contentinfo">
-	<div class="inquiry">
-		<div class="col-xs-12">
-			<div class="invest-inquiry">
-				<h2>For general enquires call: 0333 000 0330</h2>
-				<a href="<?php echo site_url(); ?>/advice">C&W Funds are only available via a financial adviser. To talk to a Lighthouse financial adviser, click here.</a>
-			</div>
-		</div>
+
+<div class="row">
+	<div class="col-sm-6 informations">
+	<div class="contact-info">
+	<h2>CONTACT INFORTAMTION</h2>
+	<p>555 Poynts Avenue <br> 
+	Manhattan, KS 66502</p>
+		<br>
+		<p>Phone: (785) 537-1600 <br>
+		Fax: (785) 537-1657</p>
+		<br>
+		<button>CONTACT US</button>
 	</div>
-	<div class="footer-normal">
-		<div class="container">
-			<div class="row widget">
-				<div class="col-sm-6 col-md-3 widget-col widget-col-1"><?php dynamic_sidebar( 'footer_widgets_1' ); ?></div>
-				<div class="col-sm-6 col-md-3 widget-col widget-col-2"><?php dynamic_sidebar( 'footer_widgets_2' ); ?></div>
-				<div class="col-sm-6 col-md-3 widget-col widget-col-3"><?php dynamic_sidebar( 'footer_widgets_3' ); ?></div>
-				<div class="col-sm-6 col-md-3 widget-col widget-col-4"><?php dynamic_sidebar( 'footer_widgets_4' ); ?></div>
-			</div>
-		</div>
+	<div class="quick-links">
+		<ul>
+			<h2>QUICK LINKS</h2>
+			<li>Affiliations</li>
+			<li>Forms</li>
+			<li>News</li>
+			<li>Blog</li>
+		</ul>
 	</div>
+	</div>
+	<div class="col-sm-6 location-map">
+		
+	</div>
+</div>
 </footer><!-- footer -->
 </div><!-- #page -->
+
 <button id="mm-menu-toggle" class="mm-menu-toggle">Toggle Menu</button>
 <!-- MENU FOR SMALL SCREEN -->
 <nav id="mm-menu" class="mm-menu">
@@ -58,14 +68,9 @@
 		fixed_header_with_adminBar();
 	});
 
-	//Google Analytics
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	//Google Analytics Codes
 
-	ga('create', 'UA-84299132-1', 'auto');
-	ga('send', 'pageview');
+
 </script>
 
 </body>
