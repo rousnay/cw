@@ -1,0 +1,41 @@
+{
+    "key": "group_5856c2753f7b9",
+    "title": "C&W General Settings",
+    "fields": [
+        {
+            "key": "field_5856c280381f2",
+            "label": "Theme options",
+            "name": "",
+            "type": "message",
+            "instructions": "More options has to come\u2026",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "cw-general-settings"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1482081100
+}

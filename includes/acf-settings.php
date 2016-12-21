@@ -1,7 +1,7 @@
 <?php 
 
 // Hide ACF field group menu item
-add_filter('acf/settings/show_admin', '__return_false');
+//add_filter('acf/settings/show_admin', '__return_false');
 
 // Customize ACF path
 add_filter('acf/settings/path', 'my_acf_settings_path');
@@ -65,18 +65,15 @@ if( function_exists('acf_add_options_page') ) {
 		'menu_title'	=> 'Theme Settings',
 		'menu_slug' 	=> 'cw-general-settings',
 		'capability'	=> 'edit_posts',
-		'redirect'		=> false
+		'parent_slug'	=> '',
+		'redirect'		=> false,
+		'icon_url' => 'dashicons-layout'
 		));
 	
-	// acf_add_options_sub_page(array(
-	// 	'page_title' 	=> 'Theme Header Settings',
-	// 	'menu_title'	=> 'Header',
-	// 	'parent_slug'	=> 'cw-general-settings',
-	// 	));
-	
-	// acf_add_options_sub_page(array(
-	// 	'page_title' 	=> 'Theme Footer Settings',
-	// 	'menu_title'	=> 'Footer',
-	// 	'parent_slug'	=> 'cw-general-settings',
-	// 	));
+	acf_add_options_sub_page(array(
+		'page_title' 	=> 'Affiliations Slider',
+		'menu_title'	=> 'Affiliations Slider',
+		'menu_slug' 	=> 'affiliations-slider',
+		'parent_slug'	=> 'cw-general-settings',
+		));
 }

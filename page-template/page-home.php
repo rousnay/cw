@@ -36,7 +36,7 @@ get_header(); ?>
 						<div class="row">
 							<div class="col-xs-12">
 							<h2>OUR AFFILIATIONS</h2>
-								<?php echo do_shortcode( '[members_logo]') ?>
+								<?php echo do_shortcode( '[company_logo]') ?>
 							</div>
 						</div>
 					</div>
