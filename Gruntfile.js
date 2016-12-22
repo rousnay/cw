@@ -148,7 +148,10 @@ watch: {
   build: {
     files: 'src/{,**/}*.{scss,js}',
     tasks: ['clean','sass:build_css','sass:build_min','autoprefixer','copy:build','uglify']
-  }
+  },
+  // options: {
+  //     spawn: false,
+  //   },
 },
 
 // Browsersync 
@@ -174,5 +177,5 @@ require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 grunt.registerTask('default', ['browserSync','watch:dev']);
 
 //Build task, Run `grunt build` on the command line
-grunt.registerTask('build', ['browserSync','watch:build']);
+grunt.registerTask('build', ['newer:browserSync','newer:watch:build']);
 };
