@@ -7,6 +7,9 @@
 //Grunt Module function
 module.exports = function (grunt) {
 
+  //Display the elapsed execution time of grunt tasks
+  require('time-grunt')(grunt);
+
   //Grunt Configuration
   grunt.initConfig({
 
