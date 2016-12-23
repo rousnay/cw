@@ -13,7 +13,7 @@ function affiliation_slider($atts, $content = null){
 
 	ob_start();
 
-	echo '<div class="members-logo row"> <div id="logo-slider" class="owl-carousel">';
+	echo '<div class="row"> <div id="company-logo-slider" class="owl-carousel">';
 
 	if( have_rows('company_logo', 'option') ):
 		while ( have_rows('company_logo', 'option') ) : the_row();

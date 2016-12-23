@@ -22,24 +22,62 @@ get_header(); ?>
 						</div>
 					</section>
 
-					<section class="container">
+					<section class="container get-started">
 						<div class="row">
 							<div class="col-xs-12">
-								<div class="content-header">
+								<div class="content-holder">
 									<h2>GET STARTED</h2>
+									<div class="feature">
+										<div class="blooks">
+											<div class="feature-icons feature-car">
+												
+											</div>
+											<div class="feature-text">
+												Auto
+											</div>
+										</div>
+										<div class="blooks">
+											<div class="feature-icons feature-home">
+												
+											</div>
+											<div class="feature-text">
+												Home
+											</div>
+										</div>
+										<div class="blooks">
+											<div class="feature-icons feature-life">
+												
+											</div>
+											<div class="feature-text">
+												Life
+											</div>
+										</div>
+										<div class="blooks">
+											<div class="feature-icons feature-commercial">
+												
+											</div>
+											<div class="feature-text">
+												Commercial
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
 					</section>
 
-					<div class="container member-logo">
-						<div class="row">
+					<div class="container affiliation-logos">
+						<div class="row content-holder">
 							<div class="col-xs-12">
-							<h2>OUR AFFILIATIONS</h2>
-								<?php echo do_shortcode( '[company_logo]') ?>
+								<div class="content-holder">
+									<h2>OUR AFFILIATIONS</h2>
+									<?php echo do_shortcode( '[company_logo]') ?>
+								</div>
 							</div>
 						</div>
 					</div>
+
+					
 					
 				</div><!-- .sections -->
 			<?php endwhile; // end of the loop. ?>

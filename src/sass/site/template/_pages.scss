@@ -1,90 +1,107 @@
 /********
   Home
-*********/
-body.page-template-page-home{
-	header#masthead {
-    background: transparent !important;
-	}
-	.site-content{
-		background-color:transparent !important;
-		position: static;
-	}
-}
-.home-page-content {
-    text-transform: uppercase;
-    text-align: right;
-    float: right;
-    .main-text{
-    	font-family: "Raleway",Helvetica,Arial,sans-serif;
-	    color: $color_cw_yellow;
-	    float: right;
-	    font-size: 4.2em;
-	    line-height: 1.2em;
-    }
-    .sub-text{
-	    font-family: Raleway;
-    	color: $color_cw_grey;
-    	float: right;
-    	clear: both;
-    	margin-top: 10px;
-    	max-width:50%;
-    	font-size: 1.6em;
-	    line-height: 1.2em;
-    }
-	.home-btn{
-		// width: 170px;
-	    float: right;
-	    clear: both;
-	    margin-top: 20px;
-	    a{
-			padding: 10px 15px;
-			background: $color_cw_grey;
-			color: #FFFFFF;
-		    text-transform: capitalize;
-			&:hover{
-				background: $color_cw_orange;
-				color: #FFFFFF;
-			}
-	    }
-	}
+  *********/
+  body.page-template-page-home{
+  	header#masthead {
+  		background: transparent !important;
+  	}
+  	.site-content{
+  		background-color:transparent !important;
+  		position: static;
+  	}
+  }
 
-	p.risk-info {
-		clear: both;
-	    position: absolute;
-	    text-align: right;
-	    bottom: 5%;
-	    right: 35px;
-        margin: 0;
-	    max-width: 686px;
-        text-transform: none;
-	}
-}
+  .get-started{
+  	text-align: center;
+  	h2{
+
+  	}
+  	.feature{
+  		.blooks{
+  			display: inline-block;
+  			margin: 0 13px;
+  			cursor: pointer;
+  			transition: all 400ms ease-out;
+  			.feature-icons{
+  				height: 117px;
+  				width: 193px;
+  				background-image: url(images/sprite-features.png);
+  			}
+  			.feature-car {
+  				background-position: 1746px 0;
+  				width: 193px;
+  			}
+  			.feature-home {
+  				background-position: 1527px 0;
+  				width: 198px;
+  			}
+  			.feature-life {
+  				background-position: 1303px 0;
+  				width: 195px;
+  			}
+  			.feature-commercial {
+  				background-position: 1082px 0;
+  				width: 196px;
+  			}
+  			.feature-text{
+  				color: #b3a272;
+  				font-weight: bold;
+  				font-size: 21px;
+  			}
+  			&:hover{
+  				.feature-car {
+  					background-position: 860px 0;
+  				}
+  				.feature-home {
+  					background-position: 641px 0;
+  				}
+
+  				.feature-life {
+  					background-position: 417px 0;
+  				}
+  				.feature-commercial {
+  					background-position: 196px 0;
+  				}
+  				.feature-text{
+  					color: #366672;
+  				}
+  			}
+  		}
+  	}
+  }
+
+  .affiliation-logos{
+  	text-align: center;
+
+  }
+
+
 
 
 
 /***********
   Philosophy
-************/
-.child-page-menu {
-	li {
-	    margin-bottom: 2px;
-		a {
-		    font-size: 12px;
-		    transition: all 200ms ease-out;
-		    display: block;
-		    background: #eee;
-		    color: #999;
-		    font-family: "Montserrat",Helvetica,Arial,sans-serif;
-		    border-radius: 0;
-		    padding: 12px 15px;
-		    &:hover {
+  ************/
+  .child-page-menu {
+  	li {
+  		margin-bottom: 2px;
+  		a {
+  			font-size: 12px;
+  			transition: all 200ms ease-out;
+  			display: block;
+  			background: #eee;
+  			color: #999;
+  			font-family: "Montserrat",Helvetica,Arial,sans-serif;
+  			border-radius: 0;
+  			padding: 12px 15px;
+  			&:hover {
 			    background-color:$color_cw_yellow; // $color_cw_orange;
 			    color: #FFFFFF;
 			}
 		}
 		&.current_page_item a{
 			background-color:$color_cw_yellow; // $color_cw_orange;
-		    color: #FFFFFF;
+			color: #FFFFFF;
 		}
 	}
 }
@@ -93,185 +110,185 @@ body.page-template-page-home{
 
 /********
   About
-*********/
-.page-about{
-	.img-intro{
-		max-width: 1170px;
-	    margin: 50px auto;
-        h4{
-        	font-size: 14px;
-		    text-align: center;
-		    font-family: "Raleway",Helvetica,Arial,sans-serif;
-		    font-weight: 400;
-		    line-height: inherit;
-        }
-	}
-	.invest-info{
-		.sub-title{
-			border-color: $color_cw_orange !important;
-		}
-		.one-solution{
-			width: 48%;
-			float: right;
-		}
-	}
-}
+  *********/
+  .page-about{
+  	.img-intro{
+  		max-width: 1170px;
+  		margin: 50px auto;
+  		h4{
+  			font-size: 14px;
+  			text-align: center;
+  			font-family: "Raleway",Helvetica,Arial,sans-serif;
+  			font-weight: 400;
+  			line-height: inherit;
+  		}
+  	}
+  	.invest-info{
+  		.sub-title{
+  			border-color: $color_cw_orange !important;
+  		}
+  		.one-solution{
+  			width: 48%;
+  			float: right;
+  		}
+  	}
+  }
 
 
 
 /*************
   Comitte Page
-*************/
-.page-committee {
-	.ranges-item {
-	    padding: 15px!important;
-	    border: 1px solid #FFCD1D!important;
-	}
-	.fund-range {
-	    margin-top: 0;
-	    padding-top: 50px;
-	}
-	.ranges .ranges-item h3 {
-	    font-family:  "Raleway",Helvetica,Arial,sans-serif !important;
-	}
-	.feature-area .col-xs-6 {
-	    padding-bottom: 40px;
-	}
-}
+  *************/
+  .page-committee {
+  	.ranges-item {
+  		padding: 15px!important;
+  		border: 1px solid #FFCD1D!important;
+  	}
+  	.fund-range {
+  		margin-top: 0;
+  		padding-top: 50px;
+  	}
+  	.ranges .ranges-item h3 {
+  		font-family:  "Raleway",Helvetica,Arial,sans-serif !important;
+  	}
+  	.feature-area .col-xs-6 {
+  		padding-bottom: 40px;
+  	}
+  }
 
 
 
 /*************
   Board Page
-*************/
-.page-board{
-	.ranges{
-		margin-top: 15px!important;
-	}
-	.ranges-item {
-		margin-top: 40px;
-	    padding: 30px!important;
-	    border: none!important;
-	    h3 {
-		    font-family:  "Raleway",Helvetica,Arial,sans-serif !important;
-		}
-	    p{
-	    	text-align:justify;
-	    }
-	}
+  *************/
+  .page-board{
+  	.ranges{
+  		margin-top: 15px!important;
+  	}
+  	.ranges-item {
+  		margin-top: 40px;
+  		padding: 30px!important;
+  		border: none!important;
+  		h3 {
+  			font-family:  "Raleway",Helvetica,Arial,sans-serif !important;
+  		}
+  		p{
+  			text-align:justify;
+  		}
+  	}
 
-}
+  }
 
 
 
 /*************
   library Page
-*************/
-.page-library{
-	.ranges{
-		margin-top: 50px!important;
-	}
-	.ranges-item {
-	    h3 {
-		    font-family:  "Raleway",Helvetica,Arial,sans-serif !important;
-	        margin-bottom: 20px;
-		}
-	    .buttons {
-		    margin-top: 3px!important;
-		}
-	}
-}
+  *************/
+  .page-library{
+  	.ranges{
+  		margin-top: 50px!important;
+  	}
+  	.ranges-item {
+  		h3 {
+  			font-family:  "Raleway",Helvetica,Arial,sans-serif !important;
+  			margin-bottom: 20px;
+  		}
+  		.buttons {
+  			margin-top: 3px!important;
+  		}
+  	}
+  }
 
 
 /********
   Advice
-*********/
-.page-advice{
-	.features {
-	    padding-top: 45px;
-	    padding-bottom: 25px;
-	    .feature-area {
-		    max-width: 1140px;
-		    #advice-steps{
-		    	text-align: center;
-		    	img{
-		    		width: 105px;
-		    	}
-		    	h3{
-		    		font-family:  "Raleway",Helvetica,Arial,sans-serif !important;
-		    		font-size: 20px;
-		    		font-weight: 400;
-		    		margin: 15px 0;
-		    	}
-		    	p{
-		    		text-align: center!important;
-		    	}
-			}
-		}
-	}
+  *********/
+  .page-advice{
+  	.features {
+  		padding-top: 45px;
+  		padding-bottom: 25px;
+  		.feature-area {
+  			max-width: 1140px;
+  			#advice-steps{
+  				text-align: center;
+  				img{
+  					width: 105px;
+  				}
+  				h3{
+  					font-family:  "Raleway",Helvetica,Arial,sans-serif !important;
+  					font-size: 20px;
+  					font-weight: 400;
+  					margin: 15px 0;
+  				}
+  				p{
+  					text-align: center!important;
+  				}
+  			}
+  		}
+  	}
 
-		.invest-info{
-		.sub-title{
-			border-color: $color_cw_orange !important;
-		}
-		.invest-solution{
-			background-color: #fafafa;
-			width: 47%;
-		    margin-left: 15px;
-		    padding: 15px;
-		    padding: 20px;
-		    padding-top: 0;
-	        text-align: justify;
-	        clear: both;
-		    h3 {
-			    padding-top: 15px;
-			}
-		}
-		.info-chart{
-			background-color: transparent!important;
-			padding-right: 0;
-		    padding-top: 0;
-		    h6{
-				border-top: 1px solid #bfbfbf;
-		    	font-size: 14px;
-		    	margin: 0;
-			    padding-top: 30px;
-			    padding-bottom: 30px;
-		    	text-transform: inherit;
-		    }
-		}
-	}
+  	.invest-info{
+  		.sub-title{
+  			border-color: $color_cw_orange !important;
+  		}
+  		.invest-solution{
+  			background-color: #fafafa;
+  			width: 47%;
+  			margin-left: 15px;
+  			padding: 15px;
+  			padding: 20px;
+  			padding-top: 0;
+  			text-align: justify;
+  			clear: both;
+  			h3 {
+  				padding-top: 15px;
+  			}
+  		}
+  		.info-chart{
+  			background-color: transparent!important;
+  			padding-right: 0;
+  			padding-top: 0;
+  			h6{
+  				border-top: 1px solid #bfbfbf;
+  				font-size: 14px;
+  				margin: 0;
+  				padding-top: 30px;
+  				padding-bottom: 30px;
+  				text-transform: inherit;
+  			}
+  		}
+  	}
 
-	.fund-range{
-		.heading-inner h1{
+  	.fund-range{
+  		.heading-inner h1{
 			//border:none!important;
 		}
 		.the-risk {
-		    max-width: 1170px;
-		    margin: 0 auto;
-		    text-align: justify;
-		    padding-top: 10px;
-		    .col-xs-6 {
-		    	&:first-child{
-		    		width: 46%;
-		    	}
-		    	&:last-child{
-		    		width: 48%;
-		    		float: right;
-		    		h3{
-		    			font-family:  "Raleway",Helvetica,Arial,sans-serif !important;
-		    			margin-top: 35px;
-		    			font-weight: 600;
-	    			    margin-bottom: 15px;
-		    			&:first-child{
-		    				margin-top: 0;
-		    			}
-		    			&.black{
-			    			font-weight: 400;
-			    		}
-		    		}
-		    	}
-		    }
+			max-width: 1170px;
+			margin: 0 auto;
+			text-align: justify;
+			padding-top: 10px;
+			.col-xs-6 {
+				&:first-child{
+					width: 46%;
+				}
+				&:last-child{
+					width: 48%;
+					float: right;
+					h3{
+						font-family:  "Raleway",Helvetica,Arial,sans-serif !important;
+						margin-top: 35px;
+						font-weight: 600;
+						margin-bottom: 15px;
+						&:first-child{
+							margin-top: 0;
+						}
+						&.black{
+							font-weight: 400;
+						}
+					}
+				}
+			}
 		}
 	}
 }
