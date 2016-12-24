@@ -32,9 +32,7 @@ sass:{
   dev: {
     options: {
       style: 'expanded',
-        //lineNumbers: true,
-        //compass: true,
-        sourcemap: 'none'
+      lineNumbers: true
       },
       files:{
         'style.css' : 'src/sass/styles.scss'
@@ -44,6 +42,7 @@ sass:{
     build_css: {
       options: {
         style: 'expanded',
+        //compass: true,
         sourcemap: 'none'
       },
       files:{

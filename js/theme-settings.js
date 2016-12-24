@@ -107,7 +107,7 @@
         	modalClose: false,
         	positionStyle: 'fixed',
         	Speed: 1500,
-        	modalColor: '#F59E26',
+        	modalColor: '#bcab7a',
         	opacity: 0.75,
         	closeClass: 'popup-close',
 

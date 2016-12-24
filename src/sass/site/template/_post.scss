@@ -16,7 +16,7 @@ header.entry-header h1{
 span.edit-link a {
 	display:none;
     margin-left: 10px;
-    color: $color_cw_orange;
+    color: $color_cw_blue;
 }
 .back-btn{
     float: left;
@@ -30,7 +30,7 @@ span.edit-link a {
 		background: $color_cw_grey;
 		color: #FFFFFF;
 		&:hover{
-			background: $color_cw_orange;
+			background: $color_cw_blue;
 			color: #FFFFFF;
 		}
     }
@@ -211,7 +211,7 @@ body.single-post{
     }
     .current, a:hover{
 	    color:#fff;
-	    background-color: $color_cw_orange;
+	    background-color: $color_cw_blue;
 	}
 }
 //Read More

@@ -95,12 +95,12 @@
   			border-radius: 0;
   			padding: 12px 15px;
   			&:hover {
-			    background-color:$color_cw_yellow; // $color_cw_orange;
+			    background-color:$color_cw_yellow; // $color_cw_blue;
 			    color: #FFFFFF;
 			}
 		}
 		&.current_page_item a{
-			background-color:$color_cw_yellow; // $color_cw_orange;
+			background-color:$color_cw_yellow; // $color_cw_blue;
 			color: #FFFFFF;
 		}
 	}
@@ -125,7 +125,7 @@
   	}
   	.invest-info{
   		.sub-title{
-  			border-color: $color_cw_orange !important;
+  			border-color: $color_cw_blue !important;
   		}
   		.one-solution{
   			width: 48%;
@@ -229,7 +229,7 @@
 
   	.invest-info{
   		.sub-title{
-  			border-color: $color_cw_orange !important;
+  			border-color: $color_cw_blue !important;
   		}
   		.invest-solution{
   			background-color: #fafafa;

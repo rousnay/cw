@@ -84,7 +84,7 @@
 			    color: #000!important;
 			    background-color: rgba(255,255,255,0.5)!important;
 			    h5 {
-				    color: $color_cw_orange !important;
+				    color: $color_cw_blue !important;
 				}
 			}
 		}
@@ -168,7 +168,7 @@
             padding: 12px;
             width: 200px;
             &:hover,&:focus,&:active{
-            	border-color:$color_cw_orange;
+            	border-color:$color_cw_blue;
 
             }
         }
@@ -181,7 +181,7 @@
 		    font-size: 16px;
 		    transition: color ease-in-out 0.15s, background-color ease-in-out 0.15s;
             &:hover,&:focus,&:active{
-                background-color: $color_cw_orange !important;
+                background-color: $color_cw_blue !important;
                 color: #fff!important;
                 border: none!important;
                 outline: none!important;

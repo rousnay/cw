@@ -7,7 +7,7 @@
         color: $color_cw_yellow !important;
     }
     .orange{
-        color: $color_cw_orange !important;
+        color: $color_cw_blue !important;
     }
     .gray{
         color: $color_cw_grey !important;
@@ -50,20 +50,20 @@
 		max-width: 1170px;
 		margin: 0 auto;
 		.sub-title{
-			color: $color_cw_orange;
+			color: $color_cw_blue;
 			//text-transform: uppercase;
 			font-family: "Raleway",Helvetica,Arial,sans-serif;
 		    font-weight: 400;
 			font-size: 20px;
 		    padding-top: 20px;
 		    margin-bottom: 50px;
-			border-top: 1px solid $color_cw_orange;
+			border-top: 1px solid $color_cw_blue;
 		}
 		.invest-solution{
 			width: 48%;
 		}
 		.solution{
-			color: $color_cw_orange;
+			color: $color_cw_blue;
 			text-transform: uppercase;
 			font-family: "Raleway",Helvetica,Arial,sans-serif;
 		    font-weight: 400;
@@ -100,7 +100,7 @@
 			    margin-top: 30px;
 		    }
 		    a{
-		    	color:$color_cw_orange;
+		    	color:$color_cw_blue;
 	    	    transition: all 200ms ease-out;
 		    	&:hover{
 		    		color:$color_cw_yellow;
