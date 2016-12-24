@@ -5,7 +5,15 @@ footer#colophon {
         width: 100%!important;
     }
     .informations{
-        & > div{
+        background-color: #403f40;
+.content-holder-half {
+    float: right;
+}
+        .contact-info{
+            float: left;
+            color: #ffffff;
+        }
+        .quick-links{
              float: left;
         }
     }

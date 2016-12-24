@@ -23,9 +23,8 @@ get_header(); ?>
 					</section>
 
 					<section class="container get-started">
-						<div class="row">
+						<div class="row content-holder">
 							<div class="col-xs-12">
-								<div class="content-holder">
 									<h2>GET STARTED</h2>
 									<div class="feature">
 										<div class="blooks">
@@ -61,7 +60,6 @@ get_header(); ?>
 											</div>
 										</div>
 									</div>
-								</div>
 							</div>
 						</div>
 					</section>
@@ -69,10 +67,8 @@ get_header(); ?>
 					<div class="container affiliation-logos">
 						<div class="row content-holder">
 							<div class="col-xs-12">
-								<div class="content-holder">
 									<h2>OUR AFFILIATIONS</h2>
 									<?php echo do_shortcode( '[company_logo]') ?>
-								</div>
 							</div>
 						</div>
 					</div>

@@ -9925,7 +9925,17 @@ footer#colophon {
 footer#colophon .container {
   width: 100% !important;
 }
-footer#colophon .informations > div {
+footer#colophon .informations {
+  background-color: #403f40;
+}
+footer#colophon .informations .content-holder-half {
+  float: right;
+}
+footer#colophon .informations .contact-info {
+  float: left;
+  color: #ffffff;
+}
+footer#colophon .informations .quick-links {
   float: left;
 }
 
@@ -10340,6 +10350,15 @@ body.page-template-page-vc .site-content, body.page-template-page-hard-coded .si
   width: 100% !important;
   max-width: 1070px !important;
   margin: 0 auto;
+}
+
+.content-holder-half {
+  width: 100% !important;
+  max-width: 520px !important;
+  margin: 0 auto;
+}
+.content-holder-half > div {
+  padding: 0 !important;
 }
 
 .left-sidebar {

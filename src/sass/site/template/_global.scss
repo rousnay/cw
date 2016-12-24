@@ -37,6 +37,14 @@ body{
     max-width: 1070px!important;
     margin: 0 auto;
 }
+.content-holder-half {
+	width: 100%!important;
+    max-width: 520px!important;
+    margin: 0 auto;
+    & > div{
+       padding: 0!important;
+    }
+}
 
 .left-sidebar {
 	margin-top: 22px;
