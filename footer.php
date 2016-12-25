@@ -19,7 +19,7 @@
 			<div class="row content-holder-half">
 				<div class="col-sm-12">
 					<div class="contact-info">
-						<h2>CONTACT INFORTAMTION</h2>
+						<h4>CONTACT INFORTAMTION</h4>
 						<p>555 Poynts Avenue <br> 
 							Manhattan, KS 66502</p>
 							<br>
@@ -31,7 +31,7 @@
 
 							<div class="quick-links">
 								<ul>
-									<h2>QUICK LINKS</h2>
+									<h4>QUICK LINKS</h4>
 									<li>Affiliations</li>
 									<li>Forms</li>
 									<li>News</li>

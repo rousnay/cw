@@ -26,6 +26,9 @@ body{
 	}
 }
 
+.container{
+	width:100%!important;
+}
 #page {
     width: 100%!important;
 }
@@ -51,11 +54,41 @@ body{
     padding-left: 0!important;
 }
 
+//Main slider (MS)
+.ms-container{
+	h1{
+		font-family: "CeraBasic", Arial, Helvetica, sans-serif;
+		font-size: 36px;
+		color: $color_cw_white;
+		font-weight: bold;
+	}
+	h3{
+		font-family: "ProximaNova", Arial, Helvetica, sans-serif;
+		font-size: 20px;
+		color: $color_cw_white;
+	}
+	.ms-bullets{
+	.ms-bullets-count {
+		.ms-bullet{
+		width: 14px;
+		height: 14px;
+		background-image: none;
+		background-color: #ffffff;
+		border-radius:50%;
+	}
+	.ms-bullet-selected{
+		background-color: $color_cw_yellow !important;
+	}
+}
+
+	}
+}
+
 
 //logo slider
 #company-logo-slider {
-    padding: 2.142em 45px 2.571em;
-    background: #ffffff;
+    padding: 5px 45px;
+    background: transparent;
     max-width: 960px;
     margin: 0 auto;
     .owl-item {
@@ -63,6 +96,9 @@ body{
 	    transition: all 200ms ease-out;
 	    &:hover{
 	    	opacity: 1;
+	    }
+	    .thumbnail{
+	    	background-color:transparent;
 	    }
 	}
     .owl-pagination {

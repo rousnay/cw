@@ -32,15 +32,15 @@
 		<header id="masthead" class="site-header panel-top panel-fixed" role="banner">
 			<div class="container">
 				<div class="row content-holder">
-					<div class="col-xs-7 col-sm-6 col-md-5 col-lg-5 logo-area">
+					<div class="col-sm-6 logo-area">
 						<a class="site-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 							<img src="<?php echo( get_header_image() ); ?>" alt="<?php echo( get_bloginfo( 'title' ) ); ?>" />
 						</a>
 					</div>
 
-					<div class="col-sm-12 col-xs-12 col-md-6">
+					<div class="col-sm-6 form-area">
 						<div class="emergency-form">
-							<h3>Auto Accident?  Home Emergency?</h3>
+							<h4>Auto Accident? &nbsp; Home Emergency?</h4>
 							<button class="submit-claim">SUBMIT A CLAIM</button>
 						</div>
 

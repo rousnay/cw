@@ -17,6 +17,11 @@
 	font-weight: bold;
 }
 @font-face {
+	src: url("../fonts/ProximaNova-Semibold.otf") format("opentype");
+	font-family: ProximaNova;
+	font-weight: 600;
+}
+@font-face {
 	src: url("../fonts/ProximaNova-Light.otf") format("opentype");
 	font-family: ProximaNova;
 	font-weight: 300;
