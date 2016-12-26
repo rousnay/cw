@@ -8,11 +8,16 @@ get_header(); ?>
 <div id="content" class="site-content full-width">
 	<main id="main" class="site-main" role="main">
 
-		<?php //while ( have_posts() ) : the_post(); ?>
-		<section class="container page-header">
+		<?php //while ( have_posts() ) : the_post(); 
+		$thumb_feature = wp_get_attachment_image_src( get_post_thumbnail_id(), 'cw_feature_img');
+		$url_feature = $thumb_feature[0];
+		?> 
+		<?php //the_content(); ?>
+		
+		<section class="container page-banner" style="background-image: url('<?php echo $url_feature; ?>');">
 			<div class="row content-holder">
 				<div class="col-xs-12">
-					<div class="header-text-holder">
+					<div class="banner-card">
 						<p class="cls">
 							“I always found shopping insurance to be stressful, but my C&W agent helped me find the best plan for me and now I feel well covered and at ease.”
 						</p>
@@ -24,100 +29,110 @@ get_header(); ?>
 			</div>
 		</section>
 
-		<section class="container blog-content">
-			<div class="row content-holder">
-				<div id="filters-dropdown" class="select-filter">
-					<select class="filtering">
-						<option value=".all">All Categories</option>
-						<option value=".cat-1">cat-1</option>
-						<option value=".cat-2">cat-2</option>
-					</select>    
+		<section class="container page-header">
+			<div class="col-xs-12">
+				<h1>BLOG</h1>
+				<h4>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.
+					</<h4>
+
+					<div id="filters-dropdown" class="select-filter">
+						<select class="filtering">
+							<option value=".all">All Categories</option>
+							<option value=".cat-1">cat-1</option>
+							<option value=".cat-2">cat-2</option>
+						</select>    
+					</div>
 				</div>
+			</section>
 
-				<div class="col-sm-12 blog-content">
-					<div class="row" id="post-listing-isotope">
-						<?php 
-						$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
-						$args = array(
-							'post_type' => 'post',
-							'posts_per_page' => 20,
-							'paged' => $paged
-							);
-						$loop = new WP_Query( $args );
-						while ( $loop->have_posts() ) : $loop->the_post(); 
+			<section class="container blog-contents">
+				<div class="row content-holder">
 
-						$terms = get_the_terms( $post->ID, 'category' );           
-						if ( $terms && ! is_wp_error( $terms ) ) : 
+					<div class="col-sm-12">
+						<div class="row" id="post-listing-isotope">
+							<?php 
+							$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+							$args = array(
+								'post_type' => 'post',
+								'posts_per_page' => 20,
+								'paged' => $paged
+								);
+							$loop = new WP_Query( $args );
+							while ( $loop->have_posts() ) : $loop->the_post(); 
 
-							$links = array();
+							$terms = get_the_terms( $post->ID, 'category' );           
+							if ( $terms && ! is_wp_error( $terms ) ) : 
 
-						foreach ( $terms as $term ) {
-							$links[] = $term->name;
-						}
+								$links = array();
 
-						$tax_links = join( " ", str_replace(' ', '-', $links));          
-						$tax = strtolower($tax_links);
-						else :  
-							$tax = '';          
-						endif; ?>
+							foreach ( $terms as $term ) {
+								$links[] = $term->name;
+							}
 
-						<?php
-						$post_thumb = wp_get_attachment_image_src( get_post_thumbnail_id(), 'cw_blog_listing');
+							$tax_links = join( " ", str_replace(' ', '-', $links));          
+							$tax = strtolower($tax_links);
+							else :  
+								$tax = '';          
+							endif; ?>
 
-						$thumb_url	= $post_thumb[0];
-						$post_url	= get_permalink();
-						$content 	= get_the_content();
-						?>
+							<?php
+							$post_thumb = wp_get_attachment_image_src( get_post_thumbnail_id(), 'cw_blog_listing');
 
-						<div class="all post-item 
+							$thumb_url	= $post_thumb[0];
+							$post_url	= get_permalink();
+							$content 	= get_the_content();
+							?>
 
-						<?php if ( has_post_thumbnail() ) {
-							echo "col-xs-12 col-sm-6";
+							<div class="all post-item 
 
-						} else {
-							echo "col-xs-6 col-sm-3";
+							<?php if ( has_post_thumbnail() ) {
+								echo "col-xs-12 col-sm-6";
 
-						} ?>
-						<?php echo $tax; ?> ">
+							} else {
+								echo "col-xs-6 col-sm-3";
 
-						<?php if( has_post_thumbnail() ): ?>
-							<div class="thumbnail thumbnail-hover">
-								<div class="blog-img">
-									<img class="img-responsive" src="<?php echo $thumb_url; ?>" >
+							} ?>
+							<?php echo $tax; ?> ">
+
+							<?php if( has_post_thumbnail() ): ?>
+								<div class="thumbnail thumbnail-hover">
+									<div class="blog-img">
+										<img class="img-responsive" src="<?php echo $thumb_url; ?>" >
+									</div>
+									<a href="<?php echo $post_url ?>" title="<?php  the_title_attribute() ?>" class="overlay"></a>
 								</div>
-								<a href="<?php echo $post_url ?>" title="<?php  the_title_attribute() ?>" class="overlay"></a>
-							</div>
+							<?php else : ?>
+								<!--    NO THUMBNAIL -->
+							<?php endif; ?>
+
+							<div class="entry" style="
+							<?php if( has_post_thumbnail() ): ?>
+							width: 50%;
 						<?php else : ?>
-							<!--    NO THUMBNAIL -->
-						<?php endif; ?>
+						width: 100%;
+					<?php endif; ?>
 
-						<div class="entry" style="
-						<?php if( has_post_thumbnail() ): ?>
-						width: 50%;
-					<?php else : ?>
-					width: 100%;
-				<?php endif; ?>
-
-				">
-				<h3><a href="<?php echo $post_url ?>"> <?php the_title() ?> </a></h3>
-				<div class="entry-content"><?php echo wp_trim_words( $content , '27' ) ?></div>
-				<div class="entry-footer">
-					<span class="date"> <i class="fa fa-clock-o"></i> <?php the_time(get_option('date_format')) ?></span>
+					">
+					<h3><a href="<?php echo $post_url ?>"> <?php the_title() ?> </a></h3>
+					<div class="entry-content"><?php echo wp_trim_words( $content , '27' ) ?></div>
+					<div class="entry-footer">
+						<span class="date"> <i class="fa fa-clock-o"></i> <?php the_time(get_option('date_format')) ?></span>
+					</div>
 				</div>
+
+
 			</div>
-
-
-		</div>
-	<?php endwhile; ?>
-</div>
-
-<div class="row">
-	<div class="col-xs-12">
-		<?php if (function_exists("pagination")) {
-			pagination($loop->max_num_pages);
-		} ?>
+		<?php endwhile; ?>
 	</div>
-</div>
+
+	<div class="row">
+		<div class="col-xs-12">
+			<?php if (function_exists("pagination")) {
+				pagination($loop->max_num_pages);
+			} ?>
+		</div>
+	</div>
 
 </div>
 </section>
