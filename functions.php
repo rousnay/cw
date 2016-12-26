@@ -56,7 +56,7 @@ function cw_setup() {
 
 	add_image_size( 'cw_feature_img', 1000, 310, array( 'center', 'center' ) );
 
-	add_image_size( 'cw_blog_listing', 714, 274, array( 'center', 'center' ) );
+	add_image_size( 'cw_blog_listing', 500, 500, array( 'center', 'center' ) );
 
 	add_image_size( 'cw_related_post', 475, 280, array( 'center', 'center' ) );
 

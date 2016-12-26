@@ -1,23 +1,20 @@
 .blog-content, .post-listing {
-    padding-right: 0;
+    // padding-right: 0;
     margin-top: 15px;
 }
 
 body.page-template-page-blog{
 	#page {
-	    background-color: #ffffff;
+	    background-color: #f5f5f5;
 		}
 	header#masthead {
-	    width: calc(100% + 70px);
-	    margin-left: -35px;
-	    padding: 0 35px 25px 35px;
-	    background: #fff;
+
 	}
 	footer#colophon {
 	    margin-top: 40px;
 	}
 	.site-content {
-		background-color: #ffffff;
+		background-color: #f5f5f5;
 	}
 	.left-sidebar {
 	    padding-right: 30px;
@@ -25,13 +22,21 @@ body.page-template-page-blog{
 	#post-listing-isotope{
 		clear: both;
 		.post-item {
+			 margin-top: 15px;
+			 margin-bottom: 15px;
+			 box-shadow: 0px 36px 21px -31px rgba(0,0,0,0.21);
 			.thumbnail{
-				margin-top: 30px!important;
-				background-color:#fafafa!important;
+				background-color:#ffffff!important;
+			    height: 100%;
+			    width: 50%;
+			    float: left;
 			}
 			.entry{
-				background-color:#fafafa;
+				background-color:#ffffff;
 				padding: 20px;
+			    height: 100%;
+			    width: 50%;
+			    float: left;
 				h3{
 					margin: 0;
 				}
@@ -43,6 +48,7 @@ body.page-template-page-blog{
 
 	}
 }
+
 #filters {
     display: inline-block;
     float: left;

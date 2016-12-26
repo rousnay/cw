@@ -27,8 +27,11 @@
 			</div>
 		</div>
 	</div>
+
 	<div id="page" class="site content-wrapper">
+
 		<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'cw' ); ?></a>
+		
 		<header id="masthead" class="site-header panel-top panel-fixed" role="banner">
 			<div class="container">
 				<div class="row content-holder">
@@ -57,4 +60,3 @@
 				</div>
 			</div>
 		</header><!-- #masthead -->
-		<div id="content" class="site-content">

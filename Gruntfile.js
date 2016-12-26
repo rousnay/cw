@@ -248,8 +248,8 @@ grunt.registerTask('watch_dev', function () {
 });
 
 //Default task, Run `grunt` on the command line
+// grunt.registerTask('default', ['notify:watch_dev','watch_dev']);
 grunt.registerTask('default', ['browserSync','notify:watch_dev','watch_dev']);
-
 
 //Custom watch configuration For BUILD
 grunt.registerTask('watch_build', function () {
