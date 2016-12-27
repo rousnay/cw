@@ -13162,11 +13162,11 @@ body.page-template-page-affiliations .site-content {
   background-color: #f4f4f4;
 }
 /* line 124, src/sass/site/page-template/_pages.scss */
-body.page-template-page-affiliations .affiliation-logo-area {
+body.page-template-page-affiliations .affiliation-contents {
   margin-top: 32px;
 }
 /* line 127, src/sass/site/page-template/_pages.scss */
-body.page-template-page-affiliations .affiliation-logo-area #logo-listing-isotope .isotope-item {
+body.page-template-page-affiliations .affiliation-contents #logo-listing-isotope .isotope-item {
   margin-bottom: 30px;
 }
 
