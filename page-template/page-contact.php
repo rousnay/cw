@@ -5,14 +5,12 @@
  * @package C&W
  */
 get_header(); ?>
+
 <div id="content" class="site-content full-width">
 	<main id="main" class="site-main" role="main">
-
-		<?php
-		while ( have_posts() ) : the_post(); //START the_post query
+		<?php while ( have_posts() ) : the_post(); //START the_post query
 		$thumb_feature = wp_get_attachment_image_src( get_post_thumbnail_id(), 'cw_feature_img');
-		$url_feature = $thumb_feature[0];
-		?>
+		$url_feature = $thumb_feature[0]; ?>
 
 		<section class="container page-banner" style="background-image: url('<?php echo $url_feature; ?>');">
 			<div class="row content-holder">
@@ -27,7 +25,7 @@ get_header(); ?>
 					</div>
 				</div>
 			</div>
-		</section><!--  END .page-banner -->
+		</section><!-- .page-banner -->
 
 		<section class="container page-header">
 			<div class="row">
@@ -36,7 +34,7 @@ get_header(); ?>
 					<h4>Whether you are searching for Personal or Business Insurance, we are free to shop multiple insurance carriers on your behalf. More freedom means more options and more savings for you.</h4>
 				</div>
 			</div>
-		</section><!--  END .page-header -->
+		</section><!-- .page-header -->
 
 		<section class="container page-contents">
 			<div class="row content-holder">
@@ -44,11 +42,9 @@ get_header(); ?>
 					<?php the_content(); ?>
 				</div>
 			</div>
-		</section><!--  END .page-contents -->
+		</section><!-- .page-contents -->
 
-
-		<?php endwhile; // END of the loop. ?>
-
+		<?php endwhile; //END the_post query ?>
 	</main><!-- #main -->
 </div><!-- .container -->
 

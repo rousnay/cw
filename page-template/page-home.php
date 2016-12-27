@@ -5,12 +5,12 @@
  * @package C&W
  */
 get_header(); ?>
+
 <div id="content" class="site-content full-width">
 	<main id="main" class="site-main" role="main">
 		<?php while ( have_posts() ) : the_post(); ?>
-			<?php //the_content(); ?>
 			
-			<section class="container slider">
+			<section class="container slider-contents">
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="slider-inner">
@@ -18,7 +18,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</div>
-			</section>
+			</section><!-- .slider-contents -->
 
 			<section class="container get-started">
 				<div class="row content-holder">
@@ -60,7 +60,7 @@ get_header(); ?>
 						</div>
 					</div>
 				</div>
-			</section>
+			</section><!-- .get-started -->
 
 			<section class="container affiliation-logos">
 				<div class="row content-holder">
@@ -69,9 +69,18 @@ get_header(); ?>
 						<?php echo do_shortcode( '[company_logo]') ?>
 					</div>
 				</div>
-			</section>
+			</section><!-- .affiliation-logos -->
+
+			<section class="container page-contents">
+				<div class="row content-holder">
+					<div class="col-xs-12">
+						<?php //the_content(); ?>
+					</div>
+				</div>
+			</section><!-- .page-contents -->
 
 		<?php endwhile; // end of the loop. ?>
 	</main><!-- #main -->
 </div><!-- #content -->
+
 <?php get_footer(); ?>

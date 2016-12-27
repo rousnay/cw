@@ -5,14 +5,12 @@
  * @package C&W
  */
 get_header(); ?>
+
 <div id="content" class="site-content full-width">
 	<main id="main" class="site-main" role="main">
-
-		<?php //while ( have_posts() ) : the_post(); 
+		<?php //while ( have_posts() ) : the_post();  //START the_post query
 		$thumb_feature = wp_get_attachment_image_src( get_post_thumbnail_id(), 'cw_feature_img');
-		$url_feature = $thumb_feature[0];
-		?> 
-		<?php //the_content(); ?>
+		$url_feature = $thumb_feature[0];?> 
 		
 		<section class="container page-banner" style="background-image: url('<?php echo $url_feature; ?>');">
 			<div class="row content-holder">
@@ -27,15 +25,12 @@ get_header(); ?>
 					</div>
 				</div>
 			</div>
-		</section>
+		</section><!-- .page-banner -->
 
 		<section class="container page-header">
 			<div class="col-xs-12">
 				<h1>BLOG</h1>
-				<h4>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.
-					</<h4>
-
+				<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</<h4>
 					<div id="filters-dropdown" class="select-filter">
 						<select class="filtering">
 							<option value=".all">All Categories</option>
@@ -44,11 +39,10 @@ get_header(); ?>
 						</select>    
 					</div>
 				</div>
-			</section>
+			</section><!-- .page-header -->
 
 			<section class="container blog-contents">
 				<div class="row content-holder">
-
 					<div class="col-sm-12">
 						<div class="row" id="post-listing-isotope">
 							<?php 
@@ -120,8 +114,6 @@ get_header(); ?>
 						<span class="date"> <i class="fa fa-clock-o"></i> <?php the_time(get_option('date_format')) ?></span>
 					</div>
 				</div>
-
-
 			</div>
 		<?php endwhile; ?>
 	</div>
@@ -135,10 +127,17 @@ get_header(); ?>
 	</div>
 
 </div>
-</section>
+</section><!-- .blog-contents -->
 
-<?php //endwhile; // end of the loop. ?>
+		<section class="container page-contents">
+			<div class="row content-holder">
+				<div class="col-xs-12">
+					<?php //the_content(); ?>
+				</div>
+			</div>
+		</section><!-- .page-contents -->
 
+<?php //endwhile; //END the_post query ?>
 </main><!-- #main -->
 </div><!-- .container -->
 
