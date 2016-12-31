@@ -284,7 +284,6 @@
 
 	 if ($.isFunction($.fn.imagesLoaded) ) {
 
-
 	 	var container	= '#post-listing-isotope';
 	 	var selector	= '.post-item';
 
@@ -308,7 +307,6 @@
 
 		});
 
-
 		// filter items when filter link is selected from dropdown
 		$select = $('#filters-dropdown select');
 		$(container).isotope({
@@ -328,7 +326,6 @@
 
 // for affiliation logos
 if ($.isFunction($.fn.imagesLoaded) ) {
-
 
 	var container1	= '#logo-listing-isotope';
 	var selector1	= '.isotope-item';

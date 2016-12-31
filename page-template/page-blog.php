@@ -14,15 +14,11 @@ get_header(); ?>
 		
 		<section class="container page-banner" style="background-image: url('<?php echo $url_feature; ?>');">
 			<div class="row content-holder">
-				<div class="col-xs-12">
-					<div class="banner-card">
-						<p class="cls">
-							“I always found shopping insurance to be stressful, but my C&W agent helped me find the best plan for me and now I feel well covered and at ease.”
-						</p>
-						<h3 class="cls">
-							- Jack Doe, Young Professional
-						</h3>
-					</div>
+				<div class="col-xs-12 banner-holder">
+					<?php
+						if(get_field('banner_card')){
+							echo '<div class="banner-card">' . get_field('banner_card') . '</div>';
+						}?>
 				</div>
 			</div>
 		</section><!-- .page-banner -->

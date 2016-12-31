@@ -12830,196 +12830,83 @@ iframe {
 /*--------------------------------------------------------------
 ## Hard-coded
 --------------------------------------------------------------*/
-/********
-  Hard Coded Pages (Fund)
-*********/
-/* line 6, src/sass/site/page-template/_hard-coded.scss */
-.hard-coded .yellow {
-  color: #bcab7a !important;
+/***********
+	Contact
+ **********/
+/* line 5, src/sass/site/page-template/_hard-coded.scss */
+.gform_body .gf-section {
+  border: none !important;
 }
-/* line 9, src/sass/site/page-template/_hard-coded.scss */
-.hard-coded .orange {
-  color: #366672 !important;
+/* line 8, src/sass/site/page-template/_hard-coded.scss */
+.gform_body .gfield_label {
+  display: none !important;
 }
-/* line 12, src/sass/site/page-template/_hard-coded.scss */
-.hard-coded .gray {
-  color: #575757 !important;
+/* line 11, src/sass/site/page-template/_hard-coded.scss */
+.gform_body span label {
+  display: none !important;
 }
-/* line 15, src/sass/site/page-template/_hard-coded.scss */
-.hard-coded .white {
-  color: #ffffff !important;
+/* line 14, src/sass/site/page-template/_hard-coded.scss */
+.gform_body .gf-initial {
+  width: 25%;
+  display: inline-block;
 }
-/* line 18, src/sass/site/page-template/_hard-coded.scss */
-.hard-coded .heading {
-  text-align: center;
-  margin-bottom: 40px;
+/* line 17, src/sass/site/page-template/_hard-coded.scss */
+.gform_body .gf-initial ul li {
+  display: inline-block;
 }
-/* line 21, src/sass/site/page-template/_hard-coded.scss */
-.hard-coded .heading h1 {
-  font-size: 60px;
-  font-family: "Raleway",Helvetica,Arial,sans-serif;
-  font-weight: 300;
-  line-height: 52px;
+/* line 22, src/sass/site/page-template/_hard-coded.scss */
+.gform_body .gf-name {
+  width: 75% !important;
+  display: inline-block;
 }
 /* line 27, src/sass/site/page-template/_hard-coded.scss */
-.hard-coded .heading p {
-  max-width: 800px;
-  margin: 0 auto;
-  margin-top: 20px;
+.gform_body .gf-address {
+  width: 100% !important;
+}
+/* line 29, src/sass/site/page-template/_hard-coded.scss */
+.gform_body .gf-address .address_line_1 {
+  width: 50% !important;
+  display: inline-block;
 }
 /* line 33, src/sass/site/page-template/_hard-coded.scss */
-.hard-coded .features {
-  background-color: #fafafa;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+.gform_body .gf-address .address_line_2 {
+  width: 25% !important;
+  display: inline-block;
 }
-/* line 39, src/sass/site/page-template/_hard-coded.scss */
-.hard-coded .features .feature-area {
-  max-width: 1170px;
-  margin: 0 auto;
+/* line 37, src/sass/site/page-template/_hard-coded.scss */
+.gform_body .gf-address .address_city {
+  width: 25% !important;
+  display: inline-block;
+  margin-right: 0 !important;
 }
-/* line 44, src/sass/site/page-template/_hard-coded.scss */
-.hard-coded .features p {
-  text-align: justify;
+/* line 42, src/sass/site/page-template/_hard-coded.scss */
+.gform_body .gf-address .address_zip {
+  width: 25% !important;
+  display: inline-block;
 }
-/* line 49, src/sass/site/page-template/_hard-coded.scss */
-.hard-coded .invest-info {
-  max-width: 1170px;
-  margin: 0 auto;
+/* line 46, src/sass/site/page-template/_hard-coded.scss */
+.gform_body .gf-address .address_country {
+  width: 25% !important;
+  display: inline-block;
 }
 /* line 52, src/sass/site/page-template/_hard-coded.scss */
-.hard-coded .invest-info .sub-title {
-  color: #366672;
-  font-family: "Raleway",Helvetica,Arial,sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  padding-top: 20px;
-  margin-bottom: 50px;
-  border-top: 1px solid #366672;
+.gform_body .gf-phone-1 {
+  width: 25% !important;
+  display: inline-block;
 }
-/* line 62, src/sass/site/page-template/_hard-coded.scss */
-.hard-coded .invest-info .invest-solution {
-  width: 48%;
+/* line 56, src/sass/site/page-template/_hard-coded.scss */
+.gform_body .gf-phone-2 {
+  width: 25% !important;
+  display: inline-block;
+}
+/* line 60, src/sass/site/page-template/_hard-coded.scss */
+.gform_body .gf-phone-3 {
+  width: 25% !important;
+  display: inline-block;
 }
 /* line 65, src/sass/site/page-template/_hard-coded.scss */
-.hard-coded .invest-info .solution {
-  color: #366672;
-  text-transform: uppercase;
-  font-family: "Raleway",Helvetica,Arial,sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  padding-top: 20px;
-  margin-top: 0;
-  border-top: 1px solid #bfbfbf;
-}
-/* line 75, src/sass/site/page-template/_hard-coded.scss */
-.hard-coded .invest-info ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-/* line 80, src/sass/site/page-template/_hard-coded.scss */
-.hard-coded .invest-info ul li {
-  border-bottom: 2px solid #cdcaca;
-  padding-bottom: 12px;
-  padding-top: 12px;
-}
-/* line 84, src/sass/site/page-template/_hard-coded.scss */
-.hard-coded .invest-info ul li:last-child {
-  border: none;
-  padding-bottom: 25px;
-}
-/* line 90, src/sass/site/page-template/_hard-coded.scss */
-.hard-coded .invest-info .info-chart {
-  background-color: #fafafa;
-  width: 48%;
-  float: right;
-  margin-right: 15px;
-  padding: 15px 25px;
-}
-/* line 96, src/sass/site/page-template/_hard-coded.scss */
-.hard-coded .invest-info .info-chart h3 {
-  font-size: 20px;
-  font-family: "Raleway",Helvetica,Arial,sans-serif;
-  font-weight: 400;
-  margin-top: 30px;
-}
-/* line 102, src/sass/site/page-template/_hard-coded.scss */
-.hard-coded .invest-info .info-chart a {
-  color: #366672;
-  transition: all 200ms ease-out;
-}
-/* line 105, src/sass/site/page-template/_hard-coded.scss */
-.hard-coded .invest-info .info-chart a:hover {
-  color: #bcab7a;
-}
-/* line 112, src/sass/site/page-template/_hard-coded.scss */
-.hard-coded .fund-range {
-  text-align: center;
-  background-color: #fafafa;
-  margin-top: 70px;
-  padding-bottom: 60px;
-}
-/* line 117, src/sass/site/page-template/_hard-coded.scss */
-.hard-coded .fund-range .heading {
-  background-color: #fff;
-  min-width: 100%;
-  padding-bottom: 20px;
-}
-/* line 122, src/sass/site/page-template/_hard-coded.scss */
-.hard-coded .fund-range .heading-inner {
-  max-width: 1170px;
-  margin: 0 auto;
-  float: none;
-}
-/* line 126, src/sass/site/page-template/_hard-coded.scss */
-.hard-coded .fund-range .heading-inner h1 {
-  font-size: 55px;
-  font-family: "Raleway",Helvetica,Arial,sans-serif;
-  font-weight: 300;
-  line-height: 52px;
-  margin-top: 0;
-  padding-top: 20px;
-  border-top: 1px solid #bcab7a;
-}
-/* line 136, src/sass/site/page-template/_hard-coded.scss */
-.hard-coded .fund-range .ranges {
-  max-width: 1170px;
-  margin: 0 auto;
-}
-/* line 142, src/sass/site/page-template/_hard-coded.scss */
-.hard-coded .fund-range .ranges .ranges-item {
-  background-color: #fff;
-  padding: 45px 40px;
-  border: 3px solid #bcab7a;
-}
-/* line 156, src/sass/site/page-template/_hard-coded.scss */
-.hard-coded .fund-range .ranges .ranges-item img {
-  max-width: 245px;
-  width: 100%;
-  display: block;
-  padding: 0;
-  margin: 0 auto;
-  outline: none;
-}
-/* line 164, src/sass/site/page-template/_hard-coded.scss */
-.hard-coded .fund-range .ranges .ranges-item h3 {
-  font-size: 18px;
-  text-align: center;
-  font-family: "Montserrat",Helvetica,Arial,sans-serif;
-  font-weight: 400;
-  margin-top: 30px;
-}
-/* line 171, src/sass/site/page-template/_hard-coded.scss */
-.hard-coded .fund-range .ranges .ranges-item .buttons {
-  margin-top: 30px;
-}
-/* line 174, src/sass/site/page-template/_hard-coded.scss */
-.hard-coded .fund-range .ranges .ranges-item p {
-  font-size: 13px !important;
-  text-align: justify !important;
+.gform_body .gf-email {
+  width: 75% !important;
 }
 
 /*--------------------------------------------------------------
