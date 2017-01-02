@@ -1,0 +1,153 @@
+/***********
+	Contact
+ **********/
+ .gform_body{
+   .gf-section{
+    border: none!important;
+  }
+  .gfield_label{
+    display: none!important;
+  }
+  span label {
+    display: none!important;
+  }
+  .gf-initial {
+    width: 25%;
+    display: inline-block;
+    ul li {
+     display: inline-block;
+     margin-left: 13px!important;
+   }
+
+ }
+ .gf-name{
+  width: 75% !important;
+  display: inline-block;
+  padding-right: 0!important;
+  >div span {
+    margin-right: 0;
+    width: 32.5%!important;
+    padding-right: 16px;
+  }
+}
+
+.gf-address{
+  width: 100% !important;
+  padding-right: 0!important;
+  .address_line_1{
+   width: 50% !important;
+   display: inline-block;
+   padding-right: 16px;
+ }
+ .address_line_2{
+   width: 25% !important;
+   display: inline-block;
+   padding-right: 16px;
+ }
+ .address_city{
+   width: 25% !important;
+   display: inline-block;
+   margin-right: 0 !important;
+ }
+ .address_state{
+   width: 25% !important;
+   display: inline-block!important;
+   padding-right: 16px!important;
+   margin: 0!important;
+ }
+ .address_zip{
+  width: 25% !important;
+  display: inline-block;
+  padding-right: 16px!important;
+}
+}
+
+.gf-phone-1{
+  width: 25% !important;
+  display: inline-block;
+}
+.gf-phone-2{
+  width: 25% !important;
+  display: inline-block;
+}
+.gf-phone-3{
+  width: 25% !important;
+  display: inline-block;
+}
+.gf-email{
+  width: 100% !important;
+}
+}
+
+  // global
+
+  .gform_wrapper form {
+    width: 100%!important;
+    max-width: 916px!important;
+  }
+.gform_wrapper .gform_page_footer {
+    text-align: center;
+}
+  .gform_wrapper .gform_body .gform_fields .gfield {
+    .gfield_radio li{
+      input[type=radio] {
+        display: none;
+        &:checked + label{
+          color: #bcab7a;
+          &:before {
+            content: "\2022";
+            color: #bcab7a;
+            font-size: 26px;
+            text-align: center;
+            line-height: 15px;
+          }
+        }
+      }
+      label {
+        display: inline-block;
+        cursor: pointer;
+        position: relative;
+        padding-left: 25px;
+        font-size: 13px;
+        &:before {
+          content: "";
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          position: absolute;
+          left: 0;
+          border: 1px solid #bcab7a;
+          border-radius: 8px;
+        }
+      }
+   } //gfield_radio
+
+   input[type=text]{
+    border: none;
+    border-bottom: 1px solid #c0bbc0;
+    &:focus{
+      color: #bcab7a;
+      border-bottom: 1px solid #bcab7a;
+    }
+  } //input[type=text]
+
+
+
+  select {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #c0bbc0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    // background: url(images/icon-dropdown.png);
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // background-position-x: 96%;
+    &:focus{
+      color: #bcab7a;
+      border-bottom: 1px solid #bcab7a;
+    }
+  }
+
+}

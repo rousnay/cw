@@ -12830,85 +12830,6 @@ iframe {
 /*--------------------------------------------------------------
 ## Hard-coded
 --------------------------------------------------------------*/
-/***********
-	Contact
- **********/
-/* line 5, src/sass/site/page-template/_hard-coded.scss */
-.gform_body .gf-section {
-  border: none !important;
-}
-/* line 8, src/sass/site/page-template/_hard-coded.scss */
-.gform_body .gfield_label {
-  display: none !important;
-}
-/* line 11, src/sass/site/page-template/_hard-coded.scss */
-.gform_body span label {
-  display: none !important;
-}
-/* line 14, src/sass/site/page-template/_hard-coded.scss */
-.gform_body .gf-initial {
-  width: 25%;
-  display: inline-block;
-}
-/* line 17, src/sass/site/page-template/_hard-coded.scss */
-.gform_body .gf-initial ul li {
-  display: inline-block;
-}
-/* line 22, src/sass/site/page-template/_hard-coded.scss */
-.gform_body .gf-name {
-  width: 75% !important;
-  display: inline-block;
-}
-/* line 27, src/sass/site/page-template/_hard-coded.scss */
-.gform_body .gf-address {
-  width: 100% !important;
-}
-/* line 29, src/sass/site/page-template/_hard-coded.scss */
-.gform_body .gf-address .address_line_1 {
-  width: 50% !important;
-  display: inline-block;
-}
-/* line 33, src/sass/site/page-template/_hard-coded.scss */
-.gform_body .gf-address .address_line_2 {
-  width: 25% !important;
-  display: inline-block;
-}
-/* line 37, src/sass/site/page-template/_hard-coded.scss */
-.gform_body .gf-address .address_city {
-  width: 25% !important;
-  display: inline-block;
-  margin-right: 0 !important;
-}
-/* line 42, src/sass/site/page-template/_hard-coded.scss */
-.gform_body .gf-address .address_zip {
-  width: 25% !important;
-  display: inline-block;
-}
-/* line 46, src/sass/site/page-template/_hard-coded.scss */
-.gform_body .gf-address .address_country {
-  width: 25% !important;
-  display: inline-block;
-}
-/* line 52, src/sass/site/page-template/_hard-coded.scss */
-.gform_body .gf-phone-1 {
-  width: 25% !important;
-  display: inline-block;
-}
-/* line 56, src/sass/site/page-template/_hard-coded.scss */
-.gform_body .gf-phone-2 {
-  width: 25% !important;
-  display: inline-block;
-}
-/* line 60, src/sass/site/page-template/_hard-coded.scss */
-.gform_body .gf-phone-3 {
-  width: 25% !important;
-  display: inline-block;
-}
-/* line 65, src/sass/site/page-template/_hard-coded.scss */
-.gform_body .gf-email {
-  width: 75% !important;
-}
-
 /*--------------------------------------------------------------
 ## pages
 --------------------------------------------------------------*/
@@ -13061,291 +12982,8 @@ body.page-template-page-affiliations .affiliation-contents #logo-listing-isotope
   Advice
   *********/
 /*------------------------------------------------------------*/
-@media (max-width: 1210px) {
-  /* line 12, src/sass/site/page-template/_page-media-queries.scss */
-  .home-page-content .sub-text {
-    max-width: 55% !important;
-  }
-}
-@media (max-width: 1025px) {
-  /* line 18, src/sass/site/page-template/_page-media-queries.scss */
-  .home-page-content .sub-text {
-    max-width: 64% !important;
-  }
-}
-@media (max-width: 991px) {
-  /* line 25, src/sass/site/page-template/_page-media-queries.scss */
-  .hard-coded .sections {
-    margin-top: 40px;
-  }
-
-  /* line 29, src/sass/site/page-template/_page-media-queries.scss */
-  .home-page-content p.risk-info {
-    bottom: 7%;
-  }
-}
-@media (max-width: 970px) {
-  /* line 37, src/sass/site/page-template/_page-media-queries.scss */
-  .hard-coded .heading h1 {
-    font-size: 55px;
-  }
-}
-@media (min-width: 768px) and (max-width: 970px) {
-  /* line 43, src/sass/site/page-template/_page-media-queries.scss */
-  .hard-coded .fund-range .ranges .ranges-item {
-    padding: 35px 30px;
-  }
-  /* line 45, src/sass/site/page-template/_page-media-queries.scss */
-  .hard-coded .fund-range .ranges .ranges-item h3, .hard-coded .fund-range .ranges .ranges-item .buttons a {
-    font-size: 14px;
-  }
-}
-@media (max-width: 850px) {
-  /* line 53, src/sass/site/page-template/_page-media-queries.scss */
-  .home-page-content .main-text {
-    font-size: 3.5em !important;
-    line-height: 1em !important;
-  }
-  /* line 57, src/sass/site/page-template/_page-media-queries.scss */
-  .home-page-content .sub-text {
-    font-size: 1.2em !important;
-    max-width: 55% !important;
-  }
-  /* line 61, src/sass/site/page-template/_page-media-queries.scss */
-  .home-page-content p.risk-info {
-    bottom: 10%;
-  }
-
-  /* line 69, src/sass/site/page-template/_page-media-queries.scss */
-  .page-advice .fund-range .the-risk .col-xs-6 {
-    width: 50% !important;
-  }
-  /* line 71, src/sass/site/page-template/_page-media-queries.scss */
-  .page-advice .fund-range .the-risk .col-xs-6 img {
-    width: 100%;
-    margin-bottom: 35px;
-  }
-}
-@media (max-width: 767px) {
-  /* line 82, src/sass/site/page-template/_page-media-queries.scss */
-  .home-page-content {
-    margin-top: 20px !important;
-  }
-  /* line 84, src/sass/site/page-template/_page-media-queries.scss */
-  .home-page-content .home-btn a {
-    font-size: 11px !important;
-  }
-  /* line 87, src/sass/site/page-template/_page-media-queries.scss */
-  .home-page-content p.risk-info {
-    right: 20px;
-    font-size: 13px;
-    padding-left: 20px;
-    bottom: 11%;
-  }
-
-  /* line 96, src/sass/site/page-template/_page-media-queries.scss */
-  .hard-coded .invest-info .info-chart, .hard-coded .invest-info .invest-solution, .hard-coded .invest-info .one-solution {
-    width: 100%;
-    margin-right: 0;
-  }
-
-  /* line 101, src/sass/site/page-template/_page-media-queries.scss */
-  .hard-coded {
-    margin-top: 35px;
-  }
-  /* line 103, src/sass/site/page-template/_page-media-queries.scss */
-  .hard-coded .invest-info, .hard-coded .features, .hard-coded .heading, .hard-coded .fund-range {
-    margin-right: inherit;
-    margin-left: inherit;
-  }
-
-  /* line 113, src/sass/site/page-template/_page-media-queries.scss */
-  .page-advice .feature-area > div {
-    margin-bottom: 0 !important;
-  }
-  /* line 117, src/sass/site/page-template/_page-media-queries.scss */
-  .page-advice .invest-info .invest-solution {
-    margin-left: inherit;
-    padding: 15px;
-  }
-  /* line 121, src/sass/site/page-template/_page-media-queries.scss */
-  .page-advice .invest-info .info-chart {
-    padding: 15px;
-  }
-  /* line 128, src/sass/site/page-template/_page-media-queries.scss */
-  .page-advice .fund-range .the-risk .col-xs-6 {
-    width: 100% !important;
-  }
-
-  /* line 136, src/sass/site/page-template/_page-media-queries.scss */
-  .feature-area > div {
-    margin-bottom: 35px;
-  }
-
-  /* line 139, src/sass/site/page-template/_page-media-queries.scss */
-  .ranges > div {
-    margin-bottom: 30px;
-  }
-}
-@media (max-width: 700px) {
-  /* line 145, src/sass/site/page-template/_page-media-queries.scss */
-  .home-page-content .main-text {
-    font-size: 3em !important;
-    line-height: 1em !important;
-  }
-  /* line 149, src/sass/site/page-template/_page-media-queries.scss */
-  .home-page-content .sub-text {
-    margin-top: 5px !important;
-    font-size: 1.1em !important;
-    line-height: 1.3em !important;
-  }
-
-  /* line 155, src/sass/site/page-template/_page-media-queries.scss */
-  .hard-coded .features {
-    margin-bottom: 20px;
-  }
-}
-@media (max-width: 650px) {
-  /* line 161, src/sass/site/page-template/_page-media-queries.scss */
-  .home-page-content {
-    margin-top: 30px !important;
-  }
-  /* line 163, src/sass/site/page-template/_page-media-queries.scss */
-  .home-page-content .main-text {
-    font-size: 2.5em !important;
-    line-height: 1em !important;
-  }
-  /* line 167, src/sass/site/page-template/_page-media-queries.scss */
-  .home-page-content .sub-text {
-    font-size: 1.1em !important;
-    line-height: 1.3em !important;
-  }
-  /* line 171, src/sass/site/page-template/_page-media-queries.scss */
-  .home-page-content p.risk-info {
-    font-size: 12px;
-  }
-}
-@media (max-width: 630px) {
-  /* line 177, src/sass/site/page-template/_page-media-queries.scss */
-  .hard-coded .heading h1 {
-    font-size: 45px;
-    line-height: 35px;
-  }
-
-  /* line 184, src/sass/site/page-template/_page-media-queries.scss */
-  .hard-coded .fund-range .heading-inner h1 {
-    font-size: 45px;
-    line-height: 40px;
-  }
-
-  /* line 188, src/sass/site/page-template/_page-media-queries.scss */
-  .page-about .img-intro h4 {
-    font-size: 12px;
-  }
-}
-@media (max-width: 550px) {
-  /* line 195, src/sass/site/page-template/_page-media-queries.scss */
-  .home-page-content .sub-text {
-    font-size: 0.9em !important;
-    max-width: 60% !important;
-  }
-  /* line 199, src/sass/site/page-template/_page-media-queries.scss */
-  .home-page-content p.risk-info {
-    font-size: 11px;
-  }
-
-  /* line 206, src/sass/site/page-template/_page-media-queries.scss */
-  .hard-coded .fund-range .ranges .ranges-item h3 {
-    font-size: 14px;
-  }
-
-  /* line 209, src/sass/site/page-template/_page-media-queries.scss */
-  .hard-coded .fund-range .ranges .ranges-item h3 {
-    font-size: 14px;
-  }
-
-  /* line 212, src/sass/site/page-template/_page-media-queries.scss */
-  .hard-coded .fund-range .ranges .ranges-item .buttons a {
-    font-size: 14px;
-  }
-
-  /* line 216, src/sass/site/page-template/_page-media-queries.scss */
-  .hard-coded .heading h1 {
-    font-size: 36px;
-    line-height: 53px;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-}
-@media (max-width: 450px) {
-  /* line 226, src/sass/site/page-template/_page-media-queries.scss */
-  .page-committee .ranges > div,
-  .page-board .ranges > div {
-    clear: both;
-    width: 100%;
-  }
-
-  /* line 231, src/sass/site/page-template/_page-media-queries.scss */
-  .page-advice .invest-info .invest-solution h3,
-  .page-advice .fund-range .the-risk h3 {
-    text-align: left;
-    font-size: 16px;
-  }
-
-  /* line 237, src/sass/site/page-template/_page-media-queries.scss */
-  .page-advice .fund-range .the-risk h3:last-child {
-    text-align: center;
-  }
-}
-@media (max-width: 430px) {
-  /* line 243, src/sass/site/page-template/_page-media-queries.scss */
-  .hard-coded .heading h1 {
-    font-size: 25px;
-    line-height: 38px;
-  }
-
-  /* line 247, src/sass/site/page-template/_page-media-queries.scss */
-  .feature-area h3 {
-    font-size: 14px;
-  }
-
-  /* line 250, src/sass/site/page-template/_page-media-queries.scss */
-  .hard-coded .invest-info .sub-title {
-    font-size: 14px;
-    margin-bottom: 40px;
-    line-height: 22px;
-  }
-
-  /* line 255, src/sass/site/page-template/_page-media-queries.scss */
-  .hard-coded .invest-info .solution {
-    font-size: 16px;
-  }
-
-  /* line 258, src/sass/site/page-template/_page-media-queries.scss */
-  .invest-solution > div.row > div.col-xs-6,
-  .one-solution > div.row > div.col-xs-6,
-  .img-intro-inner > div.col-xs-6 {
-    width: 100%;
-  }
-
-  /* line 263, src/sass/site/page-template/_page-media-queries.scss */
-  .hard-coded .invest-info .info-chart h3 {
-    font-size: 16px;
-  }
-
-  /* line 266, src/sass/site/page-template/_page-media-queries.scss */
-  .hard-coded .fund-range .heading-inner h1 {
-    font-size: 40px;
-    line-height: 40px;
-  }
-
-  /* line 270, src/sass/site/page-template/_page-media-queries.scss */
-  .hard-coded .fund-range .ranges .ranges-item {
-    padding: 35px 20px;
-  }
-}
 @media (max-width: 350px) {
-  /* line 276, src/sass/site/page-template/_page-media-queries.scss */
+  /* line 13, src/sass/site/page-template/_page-media-queries.scss */
   .home-page-content .main-text {
     font-size: 1.7em !important;
   }
@@ -14198,6 +13836,173 @@ body.single-post footer#colophon {
 /* line 244, src/sass/site/page-template/_search.scss */
 a.readmore {
   white-space: nowrap;
+}
+
+/*--------------------------------------------------------------
+## Contact
+--------------------------------------------------------------*/
+/***********
+	Contact
+ **********/
+/* line 5, src/sass/site/page-template/_contact.scss */
+.gform_body .gf-section {
+  border: none !important;
+}
+/* line 8, src/sass/site/page-template/_contact.scss */
+.gform_body .gfield_label {
+  display: none !important;
+}
+/* line 11, src/sass/site/page-template/_contact.scss */
+.gform_body span label {
+  display: none !important;
+}
+/* line 14, src/sass/site/page-template/_contact.scss */
+.gform_body .gf-initial {
+  width: 25%;
+  display: inline-block;
+}
+/* line 17, src/sass/site/page-template/_contact.scss */
+.gform_body .gf-initial ul li {
+  display: inline-block;
+  margin-left: 13px !important;
+}
+/* line 23, src/sass/site/page-template/_contact.scss */
+.gform_body .gf-name {
+  width: 75% !important;
+  display: inline-block;
+  padding-right: 0 !important;
+}
+/* line 27, src/sass/site/page-template/_contact.scss */
+.gform_body .gf-name > div span {
+  margin-right: 0;
+  width: 32.5% !important;
+  padding-right: 16px;
+}
+/* line 34, src/sass/site/page-template/_contact.scss */
+.gform_body .gf-address {
+  width: 100% !important;
+  padding-right: 0 !important;
+}
+/* line 37, src/sass/site/page-template/_contact.scss */
+.gform_body .gf-address .address_line_1 {
+  width: 50% !important;
+  display: inline-block;
+  padding-right: 16px;
+}
+/* line 42, src/sass/site/page-template/_contact.scss */
+.gform_body .gf-address .address_line_2 {
+  width: 25% !important;
+  display: inline-block;
+  padding-right: 16px;
+}
+/* line 47, src/sass/site/page-template/_contact.scss */
+.gform_body .gf-address .address_city {
+  width: 25% !important;
+  display: inline-block;
+  margin-right: 0 !important;
+}
+/* line 52, src/sass/site/page-template/_contact.scss */
+.gform_body .gf-address .address_state {
+  width: 25% !important;
+  display: inline-block !important;
+  padding-right: 16px !important;
+  margin: 0 !important;
+}
+/* line 58, src/sass/site/page-template/_contact.scss */
+.gform_body .gf-address .address_zip {
+  width: 25% !important;
+  display: inline-block;
+  padding-right: 16px !important;
+}
+/* line 65, src/sass/site/page-template/_contact.scss */
+.gform_body .gf-phone-1 {
+  width: 25% !important;
+  display: inline-block;
+}
+/* line 69, src/sass/site/page-template/_contact.scss */
+.gform_body .gf-phone-2 {
+  width: 25% !important;
+  display: inline-block;
+}
+/* line 73, src/sass/site/page-template/_contact.scss */
+.gform_body .gf-phone-3 {
+  width: 25% !important;
+  display: inline-block;
+}
+/* line 77, src/sass/site/page-template/_contact.scss */
+.gform_body .gf-email {
+  width: 100% !important;
+}
+
+/* line 84, src/sass/site/page-template/_contact.scss */
+.gform_wrapper form {
+  width: 100% !important;
+  max-width: 916px !important;
+}
+
+/* line 88, src/sass/site/page-template/_contact.scss */
+.gform_wrapper .gform_page_footer {
+  text-align: center;
+}
+
+/* line 93, src/sass/site/page-template/_contact.scss */
+.gform_wrapper .gform_body .gform_fields .gfield .gfield_radio li input[type=radio] {
+  display: none;
+}
+/* line 95, src/sass/site/page-template/_contact.scss */
+.gform_wrapper .gform_body .gform_fields .gfield .gfield_radio li input[type=radio]:checked + label {
+  color: #bcab7a;
+}
+/* line 97, src/sass/site/page-template/_contact.scss */
+.gform_wrapper .gform_body .gform_fields .gfield .gfield_radio li input[type=radio]:checked + label:before {
+  content: "\2022";
+  color: #bcab7a;
+  font-size: 26px;
+  text-align: center;
+  line-height: 15px;
+}
+/* line 106, src/sass/site/page-template/_contact.scss */
+.gform_wrapper .gform_body .gform_fields .gfield .gfield_radio li label {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding-left: 25px;
+  font-size: 13px;
+}
+/* line 112, src/sass/site/page-template/_contact.scss */
+.gform_wrapper .gform_body .gform_fields .gfield .gfield_radio li label:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 0;
+  border: 1px solid #bcab7a;
+  border-radius: 8px;
+}
+/* line 125, src/sass/site/page-template/_contact.scss */
+.gform_wrapper .gform_body .gform_fields .gfield input[type=text] {
+  border: none;
+  border-bottom: 1px solid #c0bbc0;
+}
+/* line 128, src/sass/site/page-template/_contact.scss */
+.gform_wrapper .gform_body .gform_fields .gfield input[type=text]:focus {
+  color: #bcab7a;
+  border-bottom: 1px solid #bcab7a;
+}
+/* line 136, src/sass/site/page-template/_contact.scss */
+.gform_wrapper .gform_body .gform_fields .gfield select {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #c0bbc0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+/* line 147, src/sass/site/page-template/_contact.scss */
+.gform_wrapper .gform_body .gform_fields .gfield select:focus {
+  color: #bcab7a;
+  border-bottom: 1px solid #bcab7a;
 }
 
 /*--------------------------------------------------------------
