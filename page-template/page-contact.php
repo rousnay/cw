@@ -23,21 +23,32 @@ get_header(); ?>
 			</div>
 		</section><!-- .page-banner -->
 
-		<section class="container page-header">
+<!-- 		<section class="container page-header">
 			<div class="row">
 				<div class="col-xs-12">
-					<h1>OUR AFFILIATIONS</h1>
-					<h4>Whether you are searching for Personal or Business Insurance, we are free to shop multiple insurance carriers on your behalf. More freedom means more options and more savings for you.</h4>
+				<ul class="form-header">
+					<li>
+						<h4>General Information</h4>
+					</li>
+					<li>
+						<h4>Incident Information</h4>
+					</li>
+					<li>
+						<h4>Incident Desciption</h4>
+					</li>
+					<li>
+						<h4>Additional information</h4>
+					</li>
+				</ul>
+					
 				</div>
 			</div>
-		</section><!-- .page-header -->
+		</section> --> 
+
+		<!-- .page-header --> 
 
 		<section class="container page-contents">
-			<div class="row content-holder">
-				<div class="col-xs-12">
 					<?php the_content(); ?>
-				</div>
-			</div>
 		</section><!-- .page-contents -->
 
 		<?php endwhile; //END the_post query ?>

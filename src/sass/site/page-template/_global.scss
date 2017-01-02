@@ -59,6 +59,10 @@ section.page-banner{
 	}
 }
 
+.page-contents {
+    position: relative;
+}
+
 body{
 	&:not(.page-template-page-home){
 		section{
