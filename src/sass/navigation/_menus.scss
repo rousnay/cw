@@ -60,6 +60,7 @@
 					// visibility: visible;
 					opacity: 0;
 					visibility: hidden;
+				    overflow: hidden;
 					position: absolute;
 					top: 100%;
 					left: 0;
@@ -103,9 +104,17 @@
 }
 
 
-/* Small menu. */
+/* Small menu TOGGLE button*/
+.mm-menu-toggle {
+	right: 36px;
+    left: inherit;
+	left: initial;
+	position:absolute!important;
+}
+
 button {
 	&#mm-menu-toggle{
+		display: none;
 		border:none;
 		outline: none;
 		box-shadow:none;
@@ -115,9 +124,146 @@ button {
 		}
 	}
 }
+
+.mm-menu-toggle{
+	background: linear-gradient(0deg, rgba(188, 171, 122, 0),
+	 rgba(188, 171, 122, 0) 7px, #bcab7a 7px, #bcab7a 11px,
+	  rgba(188, 171, 122, 0) 11px, rgba(188, 171, 122, 0) 18px)
+
+}
+.mm-menu-toggle.active{
+	background:transparent;
+}
+
+.mm-menu-toggle.active::before {
+    width: 100%;
+    height: 3px;
+    top: 8px;
+    transform: rotate(45deg);
+    transition-delay: 0s, 0.3s;
+}
+
+.mm-menu-toggle::before {
+
+    transition-property: top, transform;
+}
+
+.mm-menu-toggle::after {
+    transition-property: bottom, transform;
+
+}
+
+.mm-menu-toggle.active::after {
+    width: 100%;
+    height: 3px;
+    bottom: 7px;
+    transform: rotate(-45deg);
+    transition-delay: 0s, 0.3s;
+}
+
+.mm-menu-toggle::after, .mm-menu-toggle::before {
+	background-color: $color_cw_yellow;
+    transform-origin: initial;
+        transition-duration: 0.3s, 0.3s;
+  transition-delay: 0.3s, 0s;
+}
+
+
+// small manu items 
+
+nav#mm-menu button {
+    background: $color_cw_blue;
+    color:#ffffff;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 14px 48px;
+    margin: 12px 0 10px 31px;
+}
+
+
+#mm-menu ul ul, #mm-menu ul ul ul {
+    display: none;
+}
+
+#mm-menu .has-sub > a::after {
+    content: '';
+    display: block;
+    height: 14px;
+    width: 9px;
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+    right: 2em;
+    background: url(images/icon-menu-arrow.png) no-repeat center center;
+    background-size: 9px 14px;
+    transition-property: transform;
+    transition-duration: 0.2s;
+}
+
+
+#mm-menu .has-sub.active > a::after {
+    transform: translateY(-50%) rotate(90deg);
+}
+
+#mm-menu li {
+    display: block;
+    width: 100%;
+    opacity: 1;
+}
+
+#mm-menu li a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+#mm-menu #header-menu-con-id {
+    padding-bottom: 30px;
+}
+
+#mm-menu #header-menu-id > li > a{
+	font-size: 20px!important;
+	font-weight: bold;
+	padding: 10px 15px;
+	margin: 4px 0;
+    color: $color_cw_black;
+    font-family: $font1;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background 0.5s, color 0.5s;
+}
+#mm-menu #header-menu-id > li > ul li > a{
+font-family: $font2;
+color: $color_cw_yellow;
+font-size: 20px !important;
+padding: 5px 15px;
+}
+#mm-menu #header-menu-id > li > ul > li > ul > li > a{
+font-family: $font2;
+color: #575757;
+font-size: 18px !important;
+padding: 5px 15px;
+}
+
+
+.mm-menu__link--touch-effect{
+	display:none!important;
+}
+
+
+.mm-menu {
+    right: 0;
+    left: inherit;
+	left: initial;
+	height: inherit;
+    height: initial;
+    transform: translateX(100%);
+}
+
 #mm-menu{
 	.mm-menu__header {
-		background-color: $color_cw_yellow !important;
+		background-color: #ffffff !important;
 	}
 	#header-menu-left-id {
 		margin-top: 15px;
@@ -142,21 +288,29 @@ button {
 
 }
 
-.mm-menu-toggle {
-	left: 36px;
-	position:absolute!important;
+@media (min-width: 300px){
+.mm-menu {
+    width: 300px;
+    transform: translateX(300px);
+}
+}
+
+@media (max-width: 799px){
+#mm-menu-toggle{
+		display: block!important;
+}
 }
 
 @media (min-width: $screen-xs-max) {
 	.mm-menu-toggle {
 		position: fixed;
 		top: 20px;
-		left: 38px;
+		right: 38px;
 	}
 }
 @media (max-width: $screen-xs-max) {
 	.mm-menu-toggle {
-		left: 21px;
+		right: 21px;
 		top: 19px;
 	}
 	header{

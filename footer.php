@@ -60,9 +60,7 @@
 	<button id="mm-menu-toggle" class="mm-menu-toggle">Toggle Menu</button>
 	<!-- MENU FOR SMALL SCREEN -->
 	<nav id="mm-menu" class="mm-menu">
-		<div class="mm-menu__header">
-			<h2 class="mm-menu__title">C&W</h2>
-		</div>
+		<button> Submit A Claim </button>
 		<?php cw_header_menu(); ?>
 	</nav><!-- nav -->
 	<?php wp_footer(); ?>
@@ -74,7 +72,9 @@
 		var menuToggleTop 	= 22;
 		var topTotal 		= adminBarHeight + menuToggleTop;
 		//jQuery('#masthead').css('top',adminBarHeight);
-		jQuery('#mm-menu-toggle').css('top',topTotal)
+		jQuery('#mm-menu-toggle').css('top',topTotal);
+		jQuery('#mm-menu').css('top',adminBarHeight);
+
 	}
 	fixed_header_with_adminBar();
 	jQuery( window ).resize(function() {

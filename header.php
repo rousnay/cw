@@ -53,7 +53,7 @@
 
 				<div class="row header-menus">
 					<nav id="site-navigation" class="main-navigation" role="navigation">
-						<div class="col-md-12 hidden-xs hidden-sm menu-area">
+						<div class="col-md-12 hidden--xs hidden--sm menu-area">
 							<?php cw_header_menu(); ?>
 						</div>
 					</nav><!-- #site-navigation -->

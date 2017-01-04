@@ -68,6 +68,11 @@ get_header(); ?>
 						<h2>OUR AFFILIATIONS</h2>
 						<?php echo do_shortcode( '[company_logo]') ?>
 					</div>
+
+					<div class="col-xs-12">
+							<button>VIEW OUR AFFILIATIONS</button>
+					</div>
+
 				</div>
 			</section><!-- .affiliation-logos -->
 
