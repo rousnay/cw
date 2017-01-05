@@ -118,14 +118,19 @@ body{
 .ms-container{
 	h1{
 		font-family: "CeraBasic", Arial, Helvetica, sans-serif;
-		font-size: 1.8em;
 		color: $color_cw_white;
 		font-weight: bold;
+		letter-spacing: 1px;
+		font-size: 1.8em;
 	}
 	h3{
 		font-family: "ProximaNova", Arial, Helvetica, sans-serif;
-		font-size: 1em;
 		color: $color_cw_white;
+		font-weight: 300;
+		letter-spacing: 0.7px;
+		font-size: 1em;
+		line-height: 1.2em;
+	    margin-top: 10px;
 	}
 	.ms-bullets{
 		.ms-bullets-count {
