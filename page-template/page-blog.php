@@ -86,7 +86,7 @@ get_header(); ?>
 							<?php echo $tax; ?> ">
 
 							<?php if( has_post_thumbnail() ): ?>
-								<div class="thumbnail thumbnail-hover">
+								<div class="thumbnail thumbnail-hover" style="background-image: url('<?php echo $thumb_url; ?>'); ">
 									<div class="blog-img">
 										<img class="img-responsive" src="<?php echo $thumb_url; ?>" >
 									</div>

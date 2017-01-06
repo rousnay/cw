@@ -114,7 +114,21 @@
 
 	 $(".remove-link a").removeAttr("href");
 
+	 if ($.isFunction($.fn.imagesLoaded) ) {
 
+
+		function equal_size() {
+			var entryHeight	= $('.page-template-page-blog #post-listing-isotope .post-item .entry').height();
+			var totalHeight = entryHeight + 50;
+			$('body.page-template-page-blog #post-listing-isotope .post-item .thumbnail').css('height',totalHeight);
+		}
+
+		equal_size();
+
+		$( window ).resize(function() {
+			equal_size();
+		});
+	};
 
     /******************************
 	 Accordion Menu
