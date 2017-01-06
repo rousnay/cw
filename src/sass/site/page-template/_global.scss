@@ -15,8 +15,8 @@ section.page-banner{
 	box-shadow: inset 0px 30px 36px -34px rgba(0,0,0,0.4);
 
 	.banner-holder {
-    position: relative;
-    height: 265px;
+		position: relative;
+		height: 265px;
 	}
 
 	.banner-card {
@@ -29,7 +29,7 @@ section.page-banner{
 		background: linear-gradient(to right, #bcab7a , #938055);
 		padding: 27px 53px 15px 99px;
 		bottom: 30px;
-	    left: -8%;
+		left: -8%;
 		p {
 			font-size: 18px;
 			line-height: 22px;
@@ -48,7 +48,7 @@ section.page-banner{
 
 .page-header {
 	text-align: center;
-    padding-bottom: 32px;
+	padding-bottom: 32px;
 	h1{
 		font-size: 30px;
 		font-weight: bold;
@@ -62,11 +62,12 @@ section.page-banner{
 		line-height: 21px;
 		max-width: 620px;
 		margin: 14px auto;
+		padding: 0 15px;
 	}
 }
 
 .page-contents {
-    position: relative;
+	position: relative;
 }
 
 body{
@@ -136,7 +137,7 @@ body{
 		letter-spacing: 0.7px;
 		font-size: 1em;
 		line-height: 1.2em;
-	    margin-top: 10px;
+		margin-top: 10px;
 	}
 	.ms-bullets{
 		.ms-bullets-count {
@@ -315,79 +316,78 @@ iframe{
 
 @media (min-width: 1118px) and (max-width: 1260px){
 	.banner-card {
-	    left: calc( 543px - ( 100vw / 2 )) !important;
+		left: calc( 543px - ( 100vw / 2 )) !important;
 	}
 
 }
 
 @media (max-width: 1117px){
 	.banner-card {
-	    left: -15px !important;
+		left: -15px !important;
 	}
 
 }
 
 @media (max-width: 1100px){
 	section.page-banner .banner-card {
-    max-width: 450px;
-    padding: 27px 30px 15px 99px;
-}
-section.page-banner .banner-card h3 {
-    font-size: 18px;
-}
-section.page-banner .banner-card p {
-    font-size: 16px;
-    margin-bottom: 18px;
-}
-.page-header h1 {
-    font-size: 26px;
-}
-.page-header h4 {
-    font-size: 16px;
-}
+		max-width: 450px;
+		padding: 27px 30px 15px 99px;
+	}
+	section.page-banner .banner-card h3 {
+		font-size: 18px;
+	}
+	section.page-banner .banner-card p {
+		font-size: 16px;
+		margin-bottom: 18px;
+	}
+	.page-header h1 {
+		font-size: 26px;
+	}
+	.page-header h4 {
+		font-size: 16px;
+	}
 
 }
 @media (max-width: 800px){
 	section.page-banner .banner-card {
-    max-width: 400px;
-    padding: 27px 30px 15px 75px;
-}
+		max-width: 400px;
+		padding: 27px 30px 15px 75px;
+	}
 	section.page-banner .banner-card h3 {
-    font-size: 16px;
-    margin-top: 10px;
-}
-section.page-banner .banner-card p {
-    font-size: 14px;
-    line-height: 20px;
-    margin-bottom: 0;
-}
-.page-header h1 {
-    font-size: 24px;
-}
+		font-size: 16px;
+		margin-top: 10px;
+	}
+	section.page-banner .banner-card p {
+		font-size: 14px;
+		line-height: 20px;
+		margin-bottom: 0;
+	}
+	.page-header h1 {
+		font-size: 24px;
+	}
 }
 
 @media (max-width: 767px){
 	.page-header h4 {
-    font-size: 14px;
-}
+		font-size: 14px;
+	}
 }
 
 
 @media (max-width: 550px){
-section.page-banner .banner-holder {
-    height: 220px;
-}
-section.page-banner .banner-card {
-    max-width: 400px;
-    padding: 15px 15px 15px 40px;
-    bottom: 20px;
-}
-section.page-banner .banner-card p {
-    font-size: 13px;
-    line-height: 18px;
-}
-section.page-banner .banner-card h3 {
-    font-size: 14px;
-}
-
+	section.page-banner .banner-holder {
+		height: 220px;
+	}
+	section.page-banner .banner-card {
+		max-width: 400px;
+		padding: 15px 15px 15px 40px;
+		bottom: 20px;
+	}
+	section.page-banner .banner-card p {
+		font-size: 13px;
+		line-height: 18px;
+	}
+	section.page-banner .banner-card h3 {
+		font-size: 14px;
+	}
 }

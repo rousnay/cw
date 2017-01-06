@@ -4,6 +4,7 @@ a {
 	// &:visited {
 	// 	color: $color__link-visited;
 	// }
+	transition: all 200ms ease-in-out;
 	&:hover,
 	&:focus,
 	&:active {

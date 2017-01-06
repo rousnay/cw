@@ -53,11 +53,9 @@ get_header(); ?>
 						<?php endif; ?> <!-- END company_logo query -->
 
 						<div class="all isotope-item col-xs-6 col-sm-4">
-							<div class="thumbnail thumbnail-hover">
-								<div class="logo-img">
-									<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/get-ready.png">
-								</div>
-								<a href="" class="overlay"></a>
+							<div class="affiliation-started">
+							 <h2>READY TO GET STARTED?</h2>
+								<button>REQUEST A QUOTE</button>
 							</div>
 						</div>
 					</div>
