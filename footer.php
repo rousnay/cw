@@ -45,8 +45,7 @@
 				<div class="col-sm-6 location-map">
 						<div class="row content-holder-half">
 							<div class="col-sm-12">
-
-								<iframe width="1000" height="350" frameborder="0" scrolling="no" marginheight="0" src="https://maps.google.com/maps?q=555 Poynts Avenue  Manhattan, KS 66502, &t=&z=17&ie=UTF8&iwloc=&output=embed" marginwidth="0"><a class="addmaps" href="http://www.map-embed.com"id="get-map-data" mce_href="http://maps.google.com/maps/api/js?sensor=false">555 Poynts Avenue  Manhattan, KS 66502, </a><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></iframe>
+								<div class="load-pulse" id="map-canvas"> </div>
 							</div>
 						</div>
 					</div>
@@ -84,6 +83,14 @@
 	//Google Analytics Codes
 
 </script>
-
+<style type="text/css">
+	div#map-canvas{
+		height: 350px;
+		width: 100%;
+	}
+	.btn-center {
+    left: 0!important;
+}
+</style>
 </body>
 </html>

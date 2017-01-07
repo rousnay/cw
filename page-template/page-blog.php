@@ -76,7 +76,6 @@ get_header(); ?>
 						?>
 
 						<div class="all post-item 
-
 						<?php if ( has_post_thumbnail() ) {
 							echo "col-xs-12 col-sm-6";
 
@@ -85,7 +84,6 @@ get_header(); ?>
 
 						} ?>
 						<?php echo $tax; ?> ">
-
 						<?php if( has_post_thumbnail() ): ?>
 							<div class="thumbnail thumbnail-hover" style="background-image: url('<?php echo $thumb_url; ?>'); ">
 								<div class="blog-img">
@@ -96,14 +94,12 @@ get_header(); ?>
 						<?php else : ?>
 							<!--    NO THUMBNAIL -->
 						<?php endif; ?>
-
 						<div class="entry" style="
 						<?php if( has_post_thumbnail() ): ?>
 						width: 50%;
 					<?php else : ?>
 					width: 100%;
 				<?php endif; ?>
-
 				">
 				<h3><a href="<?php echo $post_url ?>"> <?php the_title() ?> </a></h3>
 				<div class="entry-content"><?php echo wp_trim_words( $content , '27' ) ?></div>
