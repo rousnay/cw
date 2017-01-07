@@ -11351,7 +11351,7 @@ hr {
   font-weight: 700;
 }
 @font-face {
-  src: url("fonts/ProximaNova-SemiboldItelic.otf") format("opentype");
+  src: url("fonts/ProximaNova-SemiboldItalic.otf") format("opentype");
   font-family: ProximaNova;
   font-weight: 600;
   font-style: italic;
@@ -12206,23 +12206,24 @@ footer#colophon .informations .content-holder-half > div > div h4 {
 /* line 25, src/sass/site/layout/_footer.scss */
 footer#colophon .informations .content-holder-half > div > div p {
   font-size: 14px;
+  color: #ffffff;
   line-height: 23px;
   font-family: "ProximaNova", Arial, Helvetica, sans-serif;
   letter-spacing: 1.5px;
   margin-bottom: 8px;
 }
-/* line 32, src/sass/site/layout/_footer.scss */
+/* line 33, src/sass/site/layout/_footer.scss */
 footer#colophon .informations .content-holder-half > div > div ul {
   padding: 0;
   margin-left: 32px;
   list-style: none;
 }
-/* line 36, src/sass/site/layout/_footer.scss */
+/* line 37, src/sass/site/layout/_footer.scss */
 footer#colophon .informations .content-holder-half > div > div ul li {
   margin-top: 4.5px;
   letter-spacing: 1.5px;
 }
-/* line 41, src/sass/site/layout/_footer.scss */
+/* line 42, src/sass/site/layout/_footer.scss */
 footer#colophon .informations .content-holder-half > div > div button {
   background-color: transparent;
   border: 2px solid #bcab7a;
@@ -12233,17 +12234,17 @@ footer#colophon .informations .content-holder-half > div > div button {
   font-weight: 600;
   font-family: "ProximaNova", Arial, Helvetica, sans-serif;
 }
-/* line 50, src/sass/site/layout/_footer.scss */
+/* line 51, src/sass/site/layout/_footer.scss */
 footer#colophon .informations .content-holder-half > div > div button:hover, footer#colophon .informations .content-holder-half > div > div button:focus {
   background-color: #bcab7a;
   color: #464446;
 }
-/* line 66, src/sass/site/layout/_footer.scss */
+/* line 67, src/sass/site/layout/_footer.scss */
 footer#colophon .location-map {
   padding: 0 !important;
   box-shadow: inset 0px 30px 36px -34px rgba(0, 0, 0, 0.25);
 }
-/* line 69, src/sass/site/layout/_footer.scss */
+/* line 70, src/sass/site/layout/_footer.scss */
 footer#colophon .location-map .content-holder-half {
   max-width: 100% !important;
 }
@@ -13456,33 +13457,58 @@ span.edit-link a {
   color: #366672;
 }
 
-/* line 21, src/sass/site/page-template/_post.scss */
-.back-btn {
-  float: left;
-  clear: both;
-  margin-top: 20px;
-  padding-left: 0;
+/* line 24, src/sass/site/page-template/_post.scss */
+body.single-post .single-post-contents h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #4b494b;
 }
-/* line 26, src/sass/site/page-template/_post.scss */
-.back-btn a {
-  font-family: Raleway;
-  padding: 10px 15px;
-  font-size: 14px;
-  background: #575757;
-  color: #FFFFFF;
+/* line 29, src/sass/site/page-template/_post.scss */
+body.single-post .single-post-contents h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #bcab7a;
 }
-/* line 32, src/sass/site/page-template/_post.scss */
-.back-btn a:hover {
-  background: #366672;
-  color: #FFFFFF;
+/* line 34, src/sass/site/page-template/_post.scss */
+body.single-post .single-post-contents h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #366672;
 }
-
 /* line 39, src/sass/site/page-template/_post.scss */
+body.single-post .single-post-contents h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #4b494b;
+  font-family: "ProximaNova", Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+/* line 46, src/sass/site/page-template/_post.scss */
+body.single-post .single-post-contents h5 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #bcab7a;
+  font-family: "ProximaNova", Arial, Helvetica, sans-serif;
+}
+/* line 52, src/sass/site/page-template/_post.scss */
+body.single-post .single-post-contents h6 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #575757;
+  font-family: "ProximaNova", Arial, Helvetica, sans-serif;
+}
+/* line 58, src/sass/site/page-template/_post.scss */
+body.single-post .single-post-contents p {
+  font-size: 18px;
+  color: #575757;
+  font-family: "ProximaNova", Arial, Helvetica, sans-serif;
+}
+/* line 65, src/sass/site/page-template/_post.scss */
 body.single-post footer#colophon {
   margin-top: 40px;
 }
 
-/* line 45, src/sass/site/page-template/_post.scss */
+/* line 71, src/sass/site/page-template/_post.scss */
 .thumbnail-hover {
   position: relative;
   border: 0;
@@ -13490,15 +13516,15 @@ body.single-post footer#colophon {
   padding: 0;
   margin: 0;
 }
-/* line 52, src/sass/site/page-template/_post.scss */
+/* line 78, src/sass/site/page-template/_post.scss */
 .thumbnail-hover:hover .overlay {
   opacity: 0.4;
 }
-/* line 55, src/sass/site/page-template/_post.scss */
+/* line 81, src/sass/site/page-template/_post.scss */
 .thumbnail-hover:hover .thumb-cross {
   opacity: 1;
 }
-/* line 59, src/sass/site/page-template/_post.scss */
+/* line 85, src/sass/site/page-template/_post.scss */
 .thumbnail-hover .overlay {
   display: block;
   position: absolute;
@@ -13511,11 +13537,11 @@ body.single-post footer#colophon {
   transition: opacity 500ms ease-in-out;
 }
 
-/* line 73, src/sass/site/page-template/_post.scss */
+/* line 99, src/sass/site/page-template/_post.scss */
 .entry {
   background-color: #ffffff;
 }
-/* line 75, src/sass/site/page-template/_post.scss */
+/* line 101, src/sass/site/page-template/_post.scss */
 .entry h3 {
   font-family: Open Sans;
   font-weight: 500;
@@ -13524,13 +13550,13 @@ body.single-post footer#colophon {
   letter-spacing: 1px;
   color: #bcab7a !important;
 }
-/* line 82, src/sass/site/page-template/_post.scss */
+/* line 108, src/sass/site/page-template/_post.scss */
 .entry h3 a {
   color: #bcab7a !important;
 }
 
 /* Pagination */
-/* line 90, src/sass/site/page-template/_post.scss */
+/* line 116, src/sass/site/page-template/_post.scss */
 .pagination {
   clear: both;
   position: relative;
@@ -13539,7 +13565,7 @@ body.single-post footer#colophon {
   line-height: 1;
   float: right;
 }
-/* line 97, src/sass/site/page-template/_post.scss */
+/* line 123, src/sass/site/page-template/_post.scss */
 .pagination span, .pagination a {
   display: block;
   float: left;
@@ -13551,19 +13577,19 @@ body.single-post footer#colophon {
   background-color: #e6e6e6;
   transition: color .15s ease-in-out, background-color .15s ease-in-out;
 }
-/* line 108, src/sass/site/page-template/_post.scss */
+/* line 134, src/sass/site/page-template/_post.scss */
 .pagination .current, .pagination a:hover {
   color: #fff;
   background-color: #366672;
 }
 
-/* line 114, src/sass/site/page-template/_post.scss */
+/* line 140, src/sass/site/page-template/_post.scss */
 .morecontent span {
   display: none;
 }
 
 @media (max-width: 991px) {
-  /* line 118, src/sass/site/page-template/_post.scss */
+  /* line 144, src/sass/site/page-template/_post.scss */
   .content-single {
     padding: 0;
   }
