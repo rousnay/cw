@@ -83,14 +83,5 @@
 	//Google Analytics Codes
 
 </script>
-<style type="text/css">
-	div#map-canvas{
-		height: 350px;
-		width: 100%;
-	}
-	.btn-center {
-    left: 0!important;
-}
-</style>
 </body>
 </html>

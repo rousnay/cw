@@ -114,6 +114,7 @@
 
 	 $(".remove-link a").removeAttr("href");
 
+
 	 if ($.isFunction($.fn.imagesLoaded) ) {
 	 	function equal_size() {
 	 		var entryHeight	= $('.page-template-page-blog #post-listing-isotope .post-item .entry').height();
@@ -127,6 +128,8 @@
 	 		equal_size();
 	 	});
 	 };
+
+	 
 
     /******************************
 	 Accordion Menu
@@ -309,7 +312,8 @@ function initialize() {
   map.controls[google.maps.ControlPosition.BOTTOM_LEFT].push(centerControlDiv);
 
   //Add Marker Icon
-  var image = '../wp-content/themes/C&W/images/marker.png';
+  var url = siteURL.templateUrl; //WordPress path url
+  var image = url + '/images/marker.png';
   var beachMarker = new google.maps.Marker({
     position: myMapIcon,
     map: map,
@@ -318,11 +322,5 @@ function initialize() {
 }
 google.maps.event.addDomListener(window, 'load', initialize);
 };
-
-
-
-
-
-
 
 })(jQuery);
