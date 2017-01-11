@@ -2,7 +2,6 @@
 	margin-top: 25px;
 	padding-right: 0;
 }
-
 header.entry-header h1{
 	font-family: $font2;
 	font-weight: 400;
@@ -12,13 +11,11 @@ header.entry-header h1{
 .post-img img {
 	width: 100%;
 }
-
 span.edit-link a {
 	display:none;
 	margin-left: 10px;
 	color: $color_cw_blue;
 }
-
 body.single-post{
 	.single-post-contents{
 		h1{
@@ -66,8 +63,6 @@ body.single-post{
 		margin-top: 40px;
 	}
 }
-
-
 .thumbnail-hover {
 	position: relative;
 	border: 0;
@@ -94,8 +89,6 @@ body.single-post{
 		transition: opacity 500ms ease-in-out;
 	}
 }
-
-
 .entry {
 	background-color: #ffffff;
 	h3{
@@ -110,7 +103,6 @@ body.single-post{
 		}
 	}
 }
-
 
 /* Pagination */
 .pagination {

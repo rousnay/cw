@@ -20,18 +20,8 @@
 </head>
 
 <body id="cw-wp" <?php body_class(); ?>>
-	<div id="sideheader">
-		<div class="sidebar-inner">
-			<div class="push_sidebar">
-				<?php dynamic_sidebar( 'push_sidebar_widgets' ); ?>
-			</div>
-		</div>
-	</div>
-
 	<div id="page" class="site content-wrapper">
-
 		<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'cw' ); ?></a>
-		
 		<header id="masthead" class="site-header panel-top panel-fixed" role="banner">
 			<div class="container">
 				<div class="row content-holder">
@@ -40,17 +30,13 @@
 							<img src="<?php echo( get_header_image() ); ?>" alt="<?php echo( get_bloginfo( 'title' ) ); ?>" />
 						</a>
 					</div>
-
 					<div class="col-sm-6 form-area">
 						<div class="emergency-form">
 							<h4>Auto Accident? &nbsp; Home Emergency?</h4>
 							<button class="submit-claim">SUBMIT A CLAIM</button>
 						</div>
-
 					</div>
-
 				</div>
-
 				<div class="row header-menus">
 					<nav id="site-navigation" class="main-navigation" role="navigation">
 						<div class="col-md-12 hidden--xs hidden--sm menu-area">

@@ -4,7 +4,6 @@
   .site-header{
     .logo-area{
       padding: 26px 0 26px 3px;
-
     }
     .form-area{
       padding-right: 23px;
@@ -118,18 +117,16 @@ button{
   color: $color_cw_white;
   font-size: 14px;
   font-family: $font2;
-      padding: 17px 25px;
-    letter-spacing: 2px;
-    margin: 20px auto;
+  padding: 17px 25px;
+  letter-spacing: 2px;
+  margin: 20px auto;
 }
-
 }
 
 
 /***********
   Affiliations
   ************/
-
   body.page-template-page-affiliations{
     .site-content{
       background-color: #f4f4f4;
@@ -141,32 +138,28 @@ button{
           margin-bottom: 30px;
         }
         .affiliation-started {
+          text-align: center;
+          h2{
+            font-size: 24px;
+            font-weight: bold;
+            color: $color_cw_black;
+            margin-bottom: 30px;
+            margin-top: 30px;
+          }
+          button{
+            background-color: transparent;
+            border: 2px solid #938055;
+            color: #938055;
+            font-family: $font2;
             text-align: center;
-            h2{
-              font-size: 24px;
-              font-weight: bold;
-              color: $color_cw_black;
-              margin-bottom: 30px;
-              margin-top: 30px;
+            letter-spacing: 1.5px;
+            padding: 15px 30px;
+            &:focus, &:hover {
+              background-color: #938055;
+              color: #ffffff;
             }
-            button{
-              background-color: transparent;
-              border: 2px solid #938055;
-              color: #938055;
-              font-family: $font2;
-              text-align: center;
-              letter-spacing: 1.5px;
-              padding: 15px 30px;
-              &:focus, &:hover {
-                  background-color: #938055;
-                  color: #ffffff;
-              }
-            }
+          }
         }
       }
     }
   }
-
-/********
-  Advice
-  *********/
