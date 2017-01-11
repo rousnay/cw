@@ -6,7 +6,6 @@
 	div {
 		padding: 0;
 	}
-
 	#header-menu-con-id {
 		margin-top: 0;
 
@@ -16,13 +15,11 @@
 			padding-left: 0;
 			text-align: center;
 		}
-
 		a { // for all links text
 			font-family: 'CeraBasic', $font_backup;
 			display: block;
 			text-decoration: none;
 		}
-
 		#header-menu-id {
 			& > li { // main menu LI
 				display: inline-block;
@@ -38,7 +35,6 @@
 					color: $color_cw_yellow;
 				}
 			}
-
 			&:last-child{
 				a{
 					padding-right:0;

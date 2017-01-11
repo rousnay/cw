@@ -17,45 +17,25 @@
 				<div class="row content-holder-half">
 					<div class="col-sm-12">
 						<div class="contact-info">
-							<h4>CONTACT INFORTAMTION</h4>
-							<p>555 Poynts Avenue <br> 
-								Manhattan, KS 66502</p>
-								<br>
-								<p>Phone: (785) 537-1600 <br>
-									Fax: (785) 537-1657</p>
-									<br>
-									<button>CONTACT US</button>
+						<?php dynamic_sidebar( 'footer_widgets_1' ); ?>
 							</div>
-
 							<div class="quick-links">
-									<ul>
-										<h4>QUICK LINKS</h4>
-										<li>Affiliations</li>
-										<li>Forms</li>
-										<li>News</li>
-										<li>Blog</li>
-									</ul>
+							<?php dynamic_sidebar( 'footer_widgets_2' ); ?>
 							</div>
-
 						</div>
 					</div>
 				</div>
-
-
 				<div class="col-sm-6 location-map">
 						<div class="row content-holder-half">
 							<div class="col-sm-12">
-								<div class="load-pulse" id="map-canvas"> </div>
+								<?php dynamic_sidebar( 'footer_widgets_3' ); ?>
 							</div>
 						</div>
 					</div>
-
 				</div>
 			</section>
 		</footer><!-- footer -->
-		
 	</div><!-- #page -->
-
 	<button id="mm-menu-toggle" class="mm-menu-toggle">Toggle Menu</button>
 	<!-- MENU FOR SMALL SCREEN -->
 	<nav id="mm-menu" class="mm-menu">
@@ -63,7 +43,6 @@
 		<?php cw_header_menu(); ?>
 	</nav><!-- nav -->
 	<?php wp_footer(); ?>
-
 	<script type="text/javascript">
 	//Fix the position of toggle menu icon
 	function fixed_header_with_adminBar() {
@@ -73,13 +52,11 @@
 		//jQuery('#masthead').css('top',adminBarHeight);
 		jQuery('#mm-menu-toggle').css('top',topTotal);
 		jQuery('#mm-menu').css('top',adminBarHeight);
-
 	}
 	fixed_header_with_adminBar();
 	jQuery( window ).resize(function() {
 		fixed_header_with_adminBar();
 	});
-
 	//Google Analytics Codes
 
 </script>

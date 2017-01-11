@@ -46,7 +46,7 @@ get_header(); ?>
 						$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 						$args = array(
 							'post_type' => 'post',
-							'posts_per_page' => 20,
+							'posts_per_page' => 10,
 							'paged' => $paged
 							);
 						$loop = new WP_Query( $args );
@@ -74,14 +74,11 @@ get_header(); ?>
 						$post_url	= get_permalink();
 						$content 	= get_the_content();
 						?>
-
 						<div class="all post-item 
 						<?php if ( has_post_thumbnail() ) {
 							echo "col-xs-12 col-sm-6";
-
 						} else {
 							echo "col-xs-6 col-sm-3";
-
 						} ?>
 						<?php echo $tax; ?> ">
 						<?php if( has_post_thumbnail() ): ?>
