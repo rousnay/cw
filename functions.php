@@ -145,7 +145,7 @@ function cw_scripts() {
 
 	wp_enqueue_script( 'cw-owl-carousel-js', get_template_directory_uri() . '/js/owl-carousel.min.js', array('jquery'), '', true );
 
-	wp_enqueue_script( 'cw-bPopup-js', get_template_directory_uri() . '/js/jquery.bpopup.min.js', array('jquery'), '', true );
+	//wp_enqueue_script( 'cw-bPopup-js', get_template_directory_uri() . '/js/jquery.bpopup.min.js', array('jquery'), '', true );
 
 	wp_enqueue_script( 'cw-perfect-scrollbar-js', get_template_directory_uri() . '/js/perfect-scrollbar.jquery.js', array('jquery'), '', true );
 
@@ -155,7 +155,7 @@ function cw_scripts() {
 
 	wp_enqueue_script( 'cw-isotope-js', get_template_directory_uri() . '/js/isotope.pkgd.min.js', array('jquery'), '', true );
 
-	wp_enqueue_script( 'cw-gsap-tweenmax-js', get_template_directory_uri() . '/js/TweenMax.min.js', array('jquery'), '', true );
+	//wp_enqueue_script( 'cw-gsap-tweenmax-js', get_template_directory_uri() . '/js/TweenMax.min.js', array('jquery'), '', true );
 
 	//wp_enqueue_script( 'cw-nobounce-js', get_template_directory_uri() . '/js/noBounce.min.js', array('jquery'), '', true );
 
@@ -237,7 +237,7 @@ include_once( get_stylesheet_directory() . '/includes/acf/acf.php' );
 include_once( get_stylesheet_directory() . '/includes/acf-settings.php' );
 
 // Typeahead Settings
-include_once( get_stylesheet_directory() . '/includes/wp-typeahead.php');
+//include_once( get_stylesheet_directory() . '/includes/wp-typeahead.php');
 
 // Widgets
 include_once( get_stylesheet_directory() . '/includes/widgets.php' );

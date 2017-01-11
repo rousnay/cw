@@ -27,7 +27,6 @@ get_header(); ?>
 						<div class="feature">
 							<div class="blooks">
 								<div class="feature-icons feature-car">
-
 								</div>
 								<div class="feature-text">
 									Auto
@@ -35,7 +34,6 @@ get_header(); ?>
 							</div>
 							<div class="blooks">
 								<div class="feature-icons feature-home">
-
 								</div>
 								<div class="feature-text">
 									Home
@@ -43,7 +41,6 @@ get_header(); ?>
 							</div>
 							<div class="blooks">
 								<div class="feature-icons feature-life">
-
 								</div>
 								<div class="feature-text">
 									Life
@@ -51,7 +48,6 @@ get_header(); ?>
 							</div>
 							<div class="blooks">
 								<div class="feature-icons feature-commercial">
-
 								</div>
 								<div class="feature-text">
 									Commercial
@@ -68,11 +64,9 @@ get_header(); ?>
 						<h2>OUR AFFILIATIONS</h2>
 						<?php echo do_shortcode( '[company_logo]') ?>
 					</div>
-
 					<div class="col-xs-12">
-							<button>VIEW OUR AFFILIATIONS</button>
+						<button>VIEW OUR AFFILIATIONS</button>
 					</div>
-
 				</div>
 			</section><!-- .affiliation-logos -->
 

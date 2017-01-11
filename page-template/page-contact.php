@@ -23,30 +23,6 @@ get_header(); ?>
 			</div>
 		</section><!-- .page-banner -->
 
-<!-- 		<section class="container page-header">
-			<div class="row">
-				<div class="col-xs-12">
-				<ul class="form-header">
-					<li>
-						<h4>General Information</h4>
-					</li>
-					<li>
-						<h4>Incident Information</h4>
-					</li>
-					<li>
-						<h4>Incident Desciption</h4>
-					</li>
-					<li>
-						<h4>Additional information</h4>
-					</li>
-				</ul>
-					
-				</div>
-			</div>
-		</section> --> 
-
-		<!-- .page-header --> 
-
 		<section class="container page-contents">
 					<?php the_content(); ?>
 		</section><!-- .page-contents -->

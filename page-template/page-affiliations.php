@@ -25,6 +25,7 @@ get_header(); ?>
 	<?php else : ?>
 		<!--    NO THUMBNAIL -->
 	<?php endif; ?>
+
 	<section class="container page-header">
 		<div class="row">
 			<div class="col-xs-12">
@@ -33,6 +34,7 @@ get_header(); ?>
 			</div>
 		</div>
 	</section><!-- .page-header -->
+
 	<section class="container affiliation-contents">
 		<div class="row content-holder">
 			<div class="col-xs-12">
@@ -63,6 +65,7 @@ get_header(); ?>
 		</div>
 	</div>
 </section><!-- .affiliation-contents -->
+
 <section class="container page-contents">
 	<div class="row content-holder">
 		<div class="col-xs-12">
@@ -70,6 +73,7 @@ get_header(); ?>
 		</div>
 	</div>
 </section><!-- .page-contents -->
+
 <?php // endwhile; // END the_post query ?>
 </main><!-- #main -->
 </div><!-- .container -->
