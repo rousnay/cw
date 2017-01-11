@@ -4,7 +4,7 @@
  *
  * Eventually, some of the functionality here could be replaced by core features.
  *
- * @package C&W
+ * @package CW
  */
 
 if ( ! function_exists( 'cw_posted_on' ) ) :

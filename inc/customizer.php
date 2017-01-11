@@ -1,8 +1,8 @@
 <?php
 /**
- * C&W Theme Customizer.
+ * CW Theme Customizer.
  *
- * @package C&W
+ * @package CW
  */
 
 /**

@@ -2,7 +2,7 @@
 /**
  * Template Name: Contact
  *
- * @package C&W
+ * @package CW
  */
 get_header(); ?>
 

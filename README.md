@@ -4,7 +4,7 @@
 <img align="right" src="http://rousnay.com/files/logos/logo-cw.jpg">
 
 
-C&W
+CW
 -----------------------------
 
 A modern WordPress theme developed by 502 Media Group, The theme is beased on [_s](http://underscores.me/) (`underscores`) .

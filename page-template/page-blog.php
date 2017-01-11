@@ -2,7 +2,7 @@
 /**
  * Template Name: Blog/News
  *
- * @package C&W
+ * @package CW
  */
 get_header(); ?>
 

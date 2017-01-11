@@ -2,7 +2,7 @@
 /**
  * Template Name: Affiliations
  *
- * @package C&W
+ * @package CW
  */
 get_header(); ?>
 

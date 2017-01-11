@@ -2,7 +2,7 @@
 /**
  * Template Name: Home
  *
- * @package C&W
+ * @package CW
  */
 get_header(); ?>
 
