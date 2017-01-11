@@ -60,7 +60,12 @@ footer#colophon {
 
         }
         .quick-links{
-
+            a{
+                color: #ffffff;
+                &:hover{
+                    color: $color_cw_yellow;
+                }
+            }
         }
     }
     .location-map{

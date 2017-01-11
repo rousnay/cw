@@ -17,15 +17,9 @@ if ( ! function_exists( 'cw_setup' ) ) :
  */
 function cw_setup() {
     // This theme styles the visual editor to resemble the theme style.
-	$font_url_Questrial = 'https://fonts.googleapis.com/css?family=Questrial';
-
-	$font_url_Raleway = 'https://fonts.googleapis.com/css?family=Raleway:400,300,500,700,600,100';
-
-	$font_url_Montserrat = 'https://fonts.googleapis.com/css?family=Montserrat:400,700';
-
 	add_editor_style( 
 		array( 
-			'style.css', str_replace( ',', '%2C', $font_url_Questrial), str_replace( ',', '%2C', $font_url_Raleway), str_replace( ',', '%2C', $font_url_Montserrat)
+			'style.css'
 			) 
 		);
 	/*
@@ -163,7 +157,7 @@ function cw_scripts() {
 
 	wp_enqueue_script( 'cw-navigation', get_template_directory_uri() . '/js/navigation.min.js', array(), '20120206', true );
 
-   	wp_enqueue_script( 'cw-settings-js', get_template_directory_uri() . '/js/theme-settings.js', array('jquery'), '20160220', true );
+   	wp_enqueue_script( 'cw-settings-js', get_template_directory_uri() . '/js/theme-settings.min.js', array('jquery'), '20160220', true );
 
 	// WordPress path url in js script file
     $template_url = array( 'templateUrl' => get_stylesheet_directory_uri() );
