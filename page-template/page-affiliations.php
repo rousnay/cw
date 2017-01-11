@@ -8,8 +8,7 @@ get_header(); ?>
 
 <div id="content" class="site-content full-width">
 	<main id="main" class="site-main" role="main">
-		<?php //while ( have_posts() ) : the_post();  //START the_post query
-		if( has_post_thumbnail() ): 
+		<?php if( has_post_thumbnail() ): 
 		$thumb_feature = wp_get_attachment_image_src( get_post_thumbnail_id(), 'cw_feature_img');
 		$url_feature = $thumb_feature[0]; ?> 
 		<section class="container page-banner" style="background-image: url('<?php echo $url_feature; ?>');">
@@ -29,8 +28,7 @@ get_header(); ?>
 	<section class="container page-header">
 		<div class="row">
 			<div class="col-xs-12">
-				<h1>OUR AFFILIATIONS</h1>
-				<h4>Whether you are searching for Personal or Business Insurance, we are free to shop multiple insurance carriers on your behalf. More freedom means more options and more savings for you.</h4>
+				<?php while ( have_posts() ) : the_post(); the_content(); endwhile; ?>
 			</div>
 		</div>
 	</section><!-- .page-header -->
@@ -66,15 +64,6 @@ get_header(); ?>
 	</div>
 </section><!-- .affiliation-contents -->
 
-<section class="container page-contents">
-	<div class="row content-holder">
-		<div class="col-xs-12">
-			<?php //the_content(); ?>
-		</div>
-	</div>
-</section><!-- .page-contents -->
-
-<?php // endwhile; // END the_post query ?>
 </main><!-- #main -->
 </div><!-- .container -->
 

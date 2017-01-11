@@ -11,7 +11,7 @@
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
-                "width": "",
+                "width": 50,
                 "class": "",
                 "id": ""
             },
@@ -34,16 +34,21 @@
                 "param": "post_type",
                 "operator": "==",
                 "value": "page"
+            },
+            {
+                "param": "page_template",
+                "operator": "!=",
+                "value": "page-template\/page-home.php"
             }
         ]
     ],
     "menu_order": 0,
-    "position": "side",
-    "style": "default",
+    "position": "normal",
+    "style": "seamless",
     "label_placement": "top",
     "instruction_placement": "label",
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1482857848
+    "modified": 1484164748
 }

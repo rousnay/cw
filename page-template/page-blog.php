@@ -8,9 +8,8 @@ get_header(); ?>
 
 <div id="content" class="site-content full-width">
 	<main id="main" class="site-main" role="main">
-		<?php //while ( have_posts() ) : the_post();  //START the_post query
-		if( has_post_thumbnail() ): 
-			$thumb_feature = wp_get_attachment_image_src( get_post_thumbnail_id(), 'cw_feature_img');
+		<?php if( has_post_thumbnail() ): 
+		$thumb_feature = wp_get_attachment_image_src( get_post_thumbnail_id(), 'cw_feature_img');
 		$url_feature = $thumb_feature[0];?> 
 		<section class="container page-banner" style="background-image: url('<?php echo $url_feature; ?>');">
 			<div class="row content-holder">
@@ -25,11 +24,11 @@ get_header(); ?>
 	<?php else : ?>
 		<!--    NO THUMBNAIL -->
 	<?php endif; ?>
-	
+
 	<section class="container page-header">
 		<div class="col-xs-12">
-			<h1>BLOG</h1>
-			<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</<h4>
+		<?php while ( have_posts() ) : the_post(); the_content(); endwhile; ?>
+
 				<div id="filters-dropdown" class="select-filter">
 					<select class="filtering">
 						<option value=".all">All Categories</option>
@@ -127,7 +126,6 @@ get_header(); ?>
 	</div>
 </section><!-- .page-contents -->
 
-<?php //endwhile; //END the_post query ?>
 </main><!-- #main -->
 </div><!-- .container -->
 
