@@ -1,13 +1,13 @@
 {
-    "key": "group_5856c2753f7b9",
-    "title": "CW General Settings",
+    "key": "group_58876b48d3cb7",
+    "title": "Site Footer",
     "fields": [
         {
-            "key": "field_5856c280381f2",
-            "label": "Theme options",
-            "name": "",
+            "key": "field_58876b59b51e6",
+            "label": "Footer Settings",
+            "name": "footer_settings",
             "type": "message",
-            "instructions": "More options has to come\u2026",
+            "instructions": "",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -15,7 +15,7 @@
                 "class": "",
                 "id": ""
             },
-            "message": "",
+            "message": "All the contents of the site footer area are controlled via Widgets, to modify the footer contents please go to Widget page.",
             "new_lines": "wpautop",
             "esc_html": 0
         }
@@ -29,7 +29,7 @@
             }
         ]
     ],
-    "menu_order": 0,
+    "menu_order": 99,
     "position": "normal",
     "style": "default",
     "label_placement": "top",
@@ -37,5 +37,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1482081100
+    "modified": 1485270118
 }

@@ -32,8 +32,8 @@
 					</div>
 					<div class="col-sm-6 form-area">
 						<div class="emergency-form">
-							<h4>Auto Accident? &nbsp; Home Emergency?</h4>
-							<button class="submit-claim">SUBMIT A CLAIM</button>
+							<h4><?php the_field('header_text','option'); ?></h4>
+							<button class="submit-claim"> <a href="<?php the_field('button_link','option'); ?>"><?php the_field('button_text','option'); ?></a></button>
 						</div>
 					</div>
 				</div>
