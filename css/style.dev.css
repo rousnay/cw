@@ -10493,15 +10493,19 @@ footer#colophon .informations .content-holder-half > div > div ul li {
 footer#colophon .informations .content-holder-half > div > div button {
   background-color: transparent;
   border: 2px solid #bcab7a;
+  padding: 14px 28px;
+}
+footer#colophon .informations .content-holder-half > div > div button a {
   text-transform: uppercase;
   color: #bcab7a;
-  padding: 14px 28px;
   font-size: 14px;
   font-weight: 600;
   font-family: "ProximaNova", Arial, Helvetica, sans-serif;
 }
 footer#colophon .informations .content-holder-half > div > div button:hover, footer#colophon .informations .content-holder-half > div > div button:focus {
   background-color: #bcab7a;
+}
+footer#colophon .informations .content-holder-half > div > div button:hover a, footer#colophon .informations .content-holder-half > div > div button:focus a {
   color: #464446;
 }
 footer#colophon .informations .quick-links a {
@@ -12099,12 +12103,14 @@ body .gform_wrapper ul li.gfield {
 }
 .affiliation-logos button {
   background-color: #bcab7a;
+  margin: 20px auto;
+  padding: 17px 25px;
+}
+.affiliation-logos button a {
   color: #f1f2f2;
   font-size: 14px;
   font-family: "ProximaNova", Arial, Helvetica, sans-serif;
-  padding: 17px 25px;
   letter-spacing: 2px;
-  margin: 20px auto;
 }
 
 /***********

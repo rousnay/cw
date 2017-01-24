@@ -114,12 +114,14 @@
 
 button{
   background-color: $color_cw_yellow;
+  margin: 20px auto;
+  padding: 17px 25px;
+  a{
   color: $color_cw_white;
   font-size: 14px;
   font-family: $font2;
-  padding: 17px 25px;
   letter-spacing: 2px;
-  margin: 20px auto;
+  }
 }
 }
 

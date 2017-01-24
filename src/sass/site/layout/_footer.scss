@@ -42,15 +42,20 @@ footer#colophon {
                 button{
                     background-color:transparent;
                     border:2px solid $color_cw_yellow;
+                    padding:14px 28px;
+                    a {
                     text-transform:uppercase;
                     color:$color_cw_yellow;
-                    padding:14px 28px;
                     font-size:14px;
                     font-weight:600;
                     font-family: $font2;
+
+                    }
                     &:hover, &:focus {
                         background-color: $color_cw_yellow;
-                        color:#464446
+                        a{
+                          color:#464446  
+                        }
                     }
                 }
             }
