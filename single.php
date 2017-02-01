@@ -37,7 +37,7 @@ get_header(); ?>
 				?>
 			</div>
 		</div>
-	</section><!-- .affiliation-contents -->
+	</section><!-- .single-post-contents -->
 </main><!-- #main -->
 </div><!-- #primary -->
 

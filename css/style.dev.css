@@ -11204,6 +11204,52 @@ body.page-template-page-blog #post-listing-isotope .post-item .entry .entry-cont
   }
 }
 /*--------------------------------------------------------------
+## Default Page
+--------------------------------------------------------------*/
+body.page-template-default h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #4b494b;
+}
+body.page-template-default h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #bcab7a;
+}
+body.page-template-default h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #366672;
+}
+body.page-template-default h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #4b494b;
+  font-family: "ProximaNova", Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+body.page-template-default h5 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #bcab7a;
+  font-family: "ProximaNova", Arial, Helvetica, sans-serif;
+}
+body.page-template-default h6 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #575757;
+  font-family: "ProximaNova", Arial, Helvetica, sans-serif;
+}
+body.page-template-default p {
+  font-size: 18px;
+  color: #575757;
+  font-family: "ProximaNova", Arial, Helvetica, sans-serif;
+}
+body.page-template-default footer#colophon {
+  margin-top: 40px;
+}
+
+/*--------------------------------------------------------------
 ## Post
 --------------------------------------------------------------*/
 .content-single {
