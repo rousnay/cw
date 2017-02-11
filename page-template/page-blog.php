@@ -111,6 +111,7 @@ get_header(); ?>
 		</div>
 	</div>
 <?php endwhile; ?>
+<div class="grid-sizer col-xs-12 col-sm-3"></div>
 </div>
 <div class="row">
 	<div class="col-xs-12">

@@ -9913,6 +9913,7 @@ a:hover, a:active {
 .main-navigation #header-menu-con-id #header-menu-id > .menu-item-has-children > .sub-menu li a {
   font-weight: bold;
   font-size: 16px;
+  line-height: 20px;
   padding: 0 17px;
   margin-bottom: 10px;
   color: #ffffff;
@@ -12388,6 +12389,11 @@ body.page-template-page-affiliations .affiliation-contents #logo-listing-isotope
 
   #company-logo-slider {
     max-width: 600px;
+  }
+
+  body.page-template-default h1 {
+    font-size: 26px;
+    letter-spacing: 0px;
   }
 
   footer#colophon .informations .content-holder-half {

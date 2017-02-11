@@ -32,6 +32,13 @@ get_header(); ?>
 	<?php else : ?>
 		<!--    NO THUMBNAIL -->
 	<?php endif; ?>
+	<section class="container page-header">
+		<div class="row content-holder">
+			<div class="col-xs-12 content-header">
+				<?php the_title( '<h1>', '</h1>' ); ?>
+			</div>
+		</div>
+	</section><!-- .page-header -->
 	<section class="container default-page-contents">
 		<div class="row content-holder">
 			<div class="col-xs-12">

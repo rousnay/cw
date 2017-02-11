@@ -157,7 +157,7 @@ function cw_scripts() {
 
 	wp_enqueue_script( 'cw-navigation', get_template_directory_uri() . '/js/navigation.min.js', array(), '20120206', true );
 
-   	wp_enqueue_script( 'cw-settings-js', get_template_directory_uri() . '/js/theme-settings.min.js', array('jquery'), '20160220', true );
+   	wp_enqueue_script( 'cw-settings-js', get_template_directory_uri() . '/js/theme-settings.js', array('jquery'), '20160220', true );
 
 	// WordPress path url in js script file
     $template_url = array( 'templateUrl' => get_stylesheet_directory_uri() );

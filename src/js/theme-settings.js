@@ -37,16 +37,26 @@
 
 	 	var container	= '#post-listing-isotope';
 	 	var selector	= '.post-item';
+	 	var sizer 		= '.grid-sizer';
 
 	 	$(container).imagesLoaded( function() {
-	 		$(container).isotope({
-			  // options...
-			  itemSelector: selector,
-			  masonry: {
-			  	columnWidth: selector
-			  }
+		// filter items when filter link is selected from dropdown
+		$select = $('#filters-dropdown select');
+		$(container).isotope({
+			itemSelector: selector,
+			percentPosition: true,
+			masonry: {
+				columnWidth: sizer
+			},
+		});
+
+		$select.change(function() {
+			var filters = $(this).val();
+			;
+			$(container).isotope({
+				filter: filters,
 			});
-	 	});
+		});
 
 		// filter items when filter link is clicked
 		$('#filters-link li').click(function(){
@@ -55,25 +65,9 @@
 			$(container).isotope({ filter: selector, animationEngine : "css" });
 			$(this).addClass('active');
 			return false;
-
 		});
-
-		// filter items when filter link is selected from dropdown
-		$select = $('#filters-dropdown select');
-		$(container).isotope({
-			itemSelector: selector
-		});
-
-		$select.change(function() {
-			var filters = $(this).val();
-			;
-			$(container).isotope({
-				filter: filters
-			});
-		});
-
-	};
-
+	});
+	 };
 
 		// for affiliation logos
 		if ($.isFunction($.fn.imagesLoaded) ) {
@@ -93,7 +87,6 @@
 					  }
 					});
 			});
-
 		};
 
 	/******************************
@@ -101,21 +94,19 @@
 	 ******************************/
 	 $('#mm-menu').perfectScrollbar();
 
-
-	/******************************
-	 Library: jquery.matchHeight.js
-	 ******************************/
-	 $('#post-listing-isotope .post-item').matchHeight();
-	 $('#logo-listing-isotope .isotope-item').matchHeight();
-
+	 
     /******************************
 	 Other settings
 	 ******************************/
 
 	 $(".remove-link a").removeAttr("href");
 
-
 	 if ($.isFunction($.fn.imagesLoaded) ) {
+
+	 	$('#logo-listing-isotope .isotope-item').matchHeight();
+
+	 	$('#post-listing-isotope .post-item').matchHeight();
+
 	 	function equal_size() {
 	 		var entryHeight	= $('.page-template-page-blog #post-listing-isotope .post-item .entry').height();
 	 		var totalHeight = entryHeight + 50;
@@ -129,7 +120,6 @@
 	 	});
 	 };
 
-	 
 
     /******************************
 	 Accordion Menu
@@ -193,9 +183,9 @@ Google Map Settings
 ***/
 if (typeof google != 'undefined') {
 
-  var map;
-  var myMap = new google.maps.LatLng(39.17921655074796, -96.56454560000003);
-  var myMapIcon = new google.maps.LatLng(39.17921655074796, -96.56454560000003);
+	var map;
+	var myMap = new google.maps.LatLng(39.17921655074796, -96.56454560000003);
+	var myMapIcon = new google.maps.LatLng(39.17921655074796, -96.56454560000003);
 
  //The CenterControl adds a control to the map that recenters the map on myMap.
  function CenterControl(controlDiv, map) {
@@ -226,76 +216,76 @@ if (typeof google != 'undefined') {
 
   // Setup the click event listeners: simply set the map to myMap
   google.maps.event.addDomListener(controlUI, 'click', function() {
-    map.setCenter(myMap)
+  	map.setCenter(myMap)
   });
 }
 
 function initialize() {
-  var mapDiv = document.getElementById('map-canvas');
-  var mapOptions = {
-    zoom: 18,
-    center: myMap,
-    styles: [
-{
-    "elementType": "labels.text",
-    "stylers": [
-      {
-        "saturation": 10
-      },
-      {
-        "lightness": 35
-      },
-      {
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "featureType": "poi.business",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "featureType": "poi.park",
-    "elementType": "labels.text",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "featureType": "road.arterial",
-    "elementType": "labels",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "featureType": "road.highway",
-    "elementType": "labels",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "featureType": "road.local",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  }
-    ]
-  }
-  map = new google.maps.Map(mapDiv, mapOptions);
+	var mapDiv = document.getElementById('map-canvas');
+	var mapOptions = {
+		zoom: 18,
+		center: myMap,
+		styles: [
+		{
+			"elementType": "labels.text",
+			"stylers": [
+			{
+				"saturation": 10
+			},
+			{
+				"lightness": 35
+			},
+			{
+				"weight": 1
+			}
+			]
+		},
+		{
+			"featureType": "poi.business",
+			"stylers": [
+			{
+				"visibility": "off"
+			}
+			]
+		},
+		{
+			"featureType": "poi.park",
+			"elementType": "labels.text",
+			"stylers": [
+			{
+				"visibility": "off"
+			}
+			]
+		},
+		{
+			"featureType": "road.arterial",
+			"elementType": "labels",
+			"stylers": [
+			{
+				"visibility": "off"
+			}
+			]
+		},
+		{
+			"featureType": "road.highway",
+			"elementType": "labels",
+			"stylers": [
+			{
+				"visibility": "off"
+			}
+			]
+		},
+		{
+			"featureType": "road.local",
+			"stylers": [
+			{
+				"visibility": "off"
+			}
+			]
+		}
+		]
+	}
+	map = new google.maps.Map(mapDiv, mapOptions);
 
   // Create the DIV to hold the control and call the CenterControl() constructor passing in this DIV.
   var centerControlDiv = document.createElement('div');
@@ -315,9 +305,9 @@ function initialize() {
   var url = siteURL.templateUrl; //WordPress path url
   var image = url + '/images/marker.png';
   var beachMarker = new google.maps.Marker({
-    position: myMapIcon,
-    map: map,
-    icon: image
+  	position: myMapIcon,
+  	map: map,
+  	icon: image
   });
 }
 google.maps.event.addDomListener(window, 'load', initialize);
